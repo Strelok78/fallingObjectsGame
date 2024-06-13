@@ -8,7 +8,6 @@ public class BallFalling : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<PlayerController>())
         {
-            Debug.Log("Lose");
             Destroy(gameObject);
         }
         else
