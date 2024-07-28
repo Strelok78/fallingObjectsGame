@@ -6,7 +6,6 @@ public class PlayerController : MonoBehaviour
 {
     private float horizontalInput;
     private float moveSpeed = 10f;
-    private bool isImmune = false;
 
     private Rigidbody2D rigidbody2D;
 
@@ -15,16 +14,6 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
-
-        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
-        {
-            isImmune = true;
-        }
-
-        if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.RightShift))
-        {
-            isImmune = false;
-        }
     }
 
     private void Update()
@@ -42,11 +31,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Object"))
         {
             Destroy(gameObject);
-
-            if (isImmune == false)
-            {
-                PlayerDied?.Invoke();
-            }
+            PlayerDied?.Invoke();
         }
     }
 }
