@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Xml.Linq;
 using UnityEngine;
 
 public class FallingObject : MonoBehaviour
@@ -26,6 +25,16 @@ public class FallingObject : MonoBehaviour
 
     private void Fall()
     {
-        Instantiate(fallingObject, new Vector3(Random.Range(xLeft, xRight), transform.position.y, 0), Quaternion.identity);
+        GameObject newFallingObject = Instantiate(fallingObject, new Vector3(Random.Range(xLeft, xRight), transform.position.y, 0), Quaternion.identity);
+
+        // Set xLeft and xRight on BallFalling component
+        BallFalling ballFalling = newFallingObject.GetComponent<BallFalling>();
+        if (ballFalling != null)
+        {
+            ballFalling.SetBounds(xLeft, xRight);
+        }
     }
+    
+    public float GetXLeft() => xLeft;
+    public float GetXRight() => xRight;
 }
