@@ -58,6 +58,7 @@ public class GameController : MonoBehaviour
 
     public void StartGameClicked()
     {
+        Debug.Log("Start is pressed");
         StartCanvas.gameObject.SetActive(false); // Hide the StartCanvas
         Time.timeScale = 1; // Resume the game
     }
