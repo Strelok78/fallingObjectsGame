@@ -1,0 +1,5820 @@
+fileFormatVersion: 2
+guid: f28e0c16d4ce5bb4abac22d7c24daecc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_0"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1302
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe4592f070b8664fbadb69fbf25b950
+      internalID: 372984154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_1"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1302
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5bc09a2c228804c870535e8d35e65b
+      internalID: 593257269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_2"
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1302
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8626bee9f87d24d880f576d25004a4
+      internalID: 1259971733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_3"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1302
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb3f48170bdced42b8fbbafabb9452e
+      internalID: 1569168963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_4"
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1302
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d2bfe24c37b63448365bf4978eba5e
+      internalID: -1251694168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_5"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1302
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0140aa877355b4f8cf305400379c42
+      internalID: 403782687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_6"
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1302
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe7e1dc859f69c4d99ed6c1c250856e
+      internalID: -1666310206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_7"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1302
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8798befb361363e4ea6c728d764961fe
+      internalID: 806953018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_8"
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1302
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ebae7b84f788843aa0157fa736e566
+      internalID: 1940093295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_9"
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1302
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a471ca0ddf9906408ad3f33e4f6072d
+      internalID: 1325662897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_10"
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1302
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbeae49481514a45a0f62142d0c9dd6
+      internalID: 220685654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_11"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1302
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fe04746de1c6f41928f00dc6c41663
+      internalID: 650841430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_12"
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1302
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba7fe305ad7d4c4190a81a336ac6246
+      internalID: -857400380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_13"
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1302
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e404179ef42aebc4b9377c5e5eb53079
+      internalID: 793653635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_14"
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1302
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ead76409e8e94b4b8e07a94dc9f276d
+      internalID: -264470877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_15"
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1302
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a990284a406674bb2c62a7451b820e
+      internalID: 2127631455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_16"
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1302
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae90f66bf576a842a2004ecd9c59643
+      internalID: -1175985660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_17"
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1302
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913bda3c755149048882f8d7eb631050
+      internalID: -124875068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_18"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1238
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a233e4f44e6c91e409ceb8131071adba
+      internalID: 1664766215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_19"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1238
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe311e95a0bb3941a016693a3fb56e3
+      internalID: 264165659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_20"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1238
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224bedb8691e67745bc7629b886e476d
+      internalID: -1388821507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_21"
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1238
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d5f116c96c31e40a887aa188014222
+      internalID: -229463800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_22"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1238
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b41828a9d1dc34c90df2843816552a
+      internalID: 2087348272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_23"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1238
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ab6d59ea239d8469b48498ea7f674e
+      internalID: -1565098170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_24"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1238
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6976bab8d6c27fe44b58b49d9248853c
+      internalID: 1084996526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_25"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1238
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4db6bb4e35c0e4e85c4f429b757fee
+      internalID: -796964692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_26"
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1238
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee962c084a38e1341bd91b73b0fdc847
+      internalID: 794318580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_27"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1238
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea075c8c140d054e8818c84fab062de
+      internalID: 936497412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_28"
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1238
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5982320a64d284ba324b4dd9bcceb6
+      internalID: -1782467043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_29"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1238
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d872d39ad301424fa9e0ea4b9b372f7
+      internalID: 864687882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_30"
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1238
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340cfe95115836e4cb4b335fe0b353dc
+      internalID: 214427860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_31"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1238
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca5efeec9089a14e98bd77599124baf
+      internalID: 878828267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_32"
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1238
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519e2867d3907f34b9ed2777a0def366
+      internalID: 1870776689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_33"
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1238
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041ce5d0d1e2d6c4f94e6d1aebc5fd18
+      internalID: -2145151024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_34"
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1238
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60854b11beded94ebb985897c6b476a
+      internalID: 138311858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_35"
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1238
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f0ffbdc0c8bb04f8204a2d7d86eeb5
+      internalID: -2089306877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_36"
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1238
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37391857cc4e194da52dafa058f3312
+      internalID: 795630780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_37"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1174
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f203f5644277b0946b818c655f2dcdb3
+      internalID: -1030882756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_38"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1174
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f96d394f02a20498a17a130e59792f
+      internalID: -1660657234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_39"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1174
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2e8ecb236bab640baf9d56c4cf00e3
+      internalID: 1030691780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_40"
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1174
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4063aab7e4de7e6449b0c2c7300b0bd8
+      internalID: -462834067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_41"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1174
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e208f3bdd74cf6a4199de4f07f422cbf
+      internalID: -167447343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_42"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1174
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff00037309e5e3345b79c81147e0258e
+      internalID: -423359362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_43"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1174
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd275d58b55cd743b4ef396aaa3cbd8
+      internalID: -954035453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_44"
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1174
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031a10d952f30ce4e936472a7e4e4907
+      internalID: 1857177188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_45"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1174
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcd2edc516878548aef83e4e4a465db
+      internalID: -1635825854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_46"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1174
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fbc9b6e5d7b3a4f984143ec36383ad
+      internalID: 1325884331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_47"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1174
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecd1f1dadbab6e4b8b55612a278432e
+      internalID: 1169826717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_48"
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1174
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b650df67a8f1108448db87cc2926ee8c
+      internalID: 922052595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_49"
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1174
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0e362a6eb1d47409240a092352df56
+      internalID: -1060497350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_50"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1102
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59aa953c2c71f8b4998806b2dee4f11c
+      internalID: -394411973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_51"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1102
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36785d59499d3214b9881969b7f3ef9f
+      internalID: 493698183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_52"
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1102
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e666b7bdb204314bb64ab535ffe94d8
+      internalID: -696470754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_53"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1102
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6f7ccfb8e73364a9b5baf5db7dfdd2
+      internalID: 1126643538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_54"
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1102
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88afacb7ebad5b6469a37c945cd7e148
+      internalID: -2145906963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_55"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1102
+        width: 29
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcacbed0cd211ec46a4f3b047c742847
+      internalID: 1292372716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_56"
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1102
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559f0a22725d69e448a8cef5bc38232a
+      internalID: 1809263737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_57"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1102
+        width: 28
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142f76f98d5e32c48874717025d2407d
+      internalID: -1287126121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_58"
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1102
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27594394c63797a44aec0fd149e88522
+      internalID: -405981994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_59"
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1102
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf29f8ef32f53b6458a886effb7bb45a
+      internalID: -1677510063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_60"
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1102
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c769ea8cf46dd2c4ba85f4f68d006bb5
+      internalID: -1093126588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_61"
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1102
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba6ef592bc1ad8438d81e8d4d6390e0
+      internalID: -1541308958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_62"
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1102
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f5eda145afb9246834112887162d6d
+      internalID: 1214734439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_63"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1046
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df3b89745892a741baca5621ec23238
+      internalID: -2093468660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_64"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1046
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6accd8150a6de6a4091df55099b02804
+      internalID: 776371255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_65"
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1046
+        width: 53
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5168635a48e657642bcd9f3c2ccd007f
+      internalID: 364600965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_66"
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1046
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfa8eec47cee5848951db08a02d7580
+      internalID: 768460770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_67"
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1046
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa57eff84d16f8d49843ab2c63fbacad
+      internalID: 38456684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_68"
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1046
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ff46e67337a754c997ac823043cb4a
+      internalID: -1996999222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_69"
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1046
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb47fc4695727ef4f9f82de803d05128
+      internalID: -571997748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_70"
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1046
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fef260c60f61e4abffb6072e009f84
+      internalID: 1368434811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_71"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1046
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0615146f44ea184b84eb969f1cb49de
+      internalID: -401994754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_72"
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1046
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327e9ef8f8057c34c9a86418e1a020d7
+      internalID: -495294918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_73"
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1046
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d3a53434306b64ba2a5bade6ae1fde
+      internalID: 2127351366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_74"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1046
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d93fec215b248e4eb8871e98f4a3adc
+      internalID: -214583128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_75"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 974
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4699cbe8f21c8824ab236b5c8d71091f
+      internalID: 1145025625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_76"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 974
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d53becef9a9b2748bbfa34cb71ff47f
+      internalID: -1244643004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_77"
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 974
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e825bde1f36a3f428360c7663fbef2d
+      internalID: 614484523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_78"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 974
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785f798d11699f4438b9d4b8ee98a2cc
+      internalID: -1708284893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_79"
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 974
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373b871da5ae6914ea63f5ada7338755
+      internalID: -1576572639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_80"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 974
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c295214871aa83744bfc161c8ef4a65b
+      internalID: -1386039241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_81"
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 974
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cd048d8294c894797a9852c84844b8
+      internalID: -989510959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_82"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 974
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18700fe47be3d3478d257d8c5046dc3
+      internalID: 700405514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_83"
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 974
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fc4e99e2bda4d40a4225acfc95281a
+      internalID: 951732126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_84"
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 974
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13955e32d8aa82248b964c47701995d2
+      internalID: 556751727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_85"
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 974
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bc33798166f194d9285e8e48477aa6
+      internalID: -340459978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_86"
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 974
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fab41b7a469c34ea64112838812aa3
+      internalID: -2130868781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_87"
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 974
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8152b876eda7b2e49a2da76df5650bed
+      internalID: 1124061828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_88"
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 974
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81061708c65da2144927184eedce2172
+      internalID: 1144704590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_89"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 910
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da76de619998bc428c2fcb7d8f9b95b
+      internalID: -701363241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_90"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 910
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfec98c92dd1d6d46a183673c6723eab
+      internalID: -999812209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_91"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 910
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27518a086f6c65e4db5d4eec871c079e
+      internalID: 297458181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_92"
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 910
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17715253f087f424e94e25d5662819f9
+      internalID: 961586274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_93"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 910
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f59ad0d4ffd385488d49d71da17929a
+      internalID: -50955319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_94"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 910
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d0096e4c39a114bb647964a6d7b91a
+      internalID: 38289656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_95"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 910
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2180389c3bb814c9dd2be04a3f4d0b
+      internalID: 1956118830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_96"
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 910
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03df5af5943d1844997c18addd2f2290
+      internalID: -210797807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_97"
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 910
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18e3db107ea0a84783506b05cf92145
+      internalID: 1850589521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_98"
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 910
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cf3683aed566c469056e194ddf74d9
+      internalID: 1021606064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_99"
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 910
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95fb68cd5fdc1e488a0e3dc8a993fb1
+      internalID: -1525408946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_100"
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 910
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0eeb642a95e69146a39572078f88b59
+      internalID: 1982879098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_101"
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 910
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278358720f82b1c4398f7e46a4782e81
+      internalID: -830331865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_102"
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 910
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63719d2055a83df46844318fa913d5de
+      internalID: 2055625935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_103"
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 911
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d9a77caa518c642ba4ed163dc032ed
+      internalID: -1140511141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_104"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 838
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02341bb9bea692f4db6da8dbc4f21a17
+      internalID: 1768230918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_105"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 838
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555d207ccfc28bd46b59209ae0d7ba83
+      internalID: 468521469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_106"
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 838
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4336ea633d269f46b88a81ed5208901
+      internalID: 1092111241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_107"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 838
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63f219641190594494d2ec579549044
+      internalID: 1803783492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_108"
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 838
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6513a12ed57143e4d90a56630ed8064d
+      internalID: 762677010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_109"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 838
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1269c244b5950ff498873f706e9c6d69
+      internalID: -894455955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_110"
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 838
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d594ba267234d9d42a0bcc230a3dfb6f
+      internalID: 1333117044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_111"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 838
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421947c935f8b8d47a5618c27829cbad
+      internalID: 772785483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_112"
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 838
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0d4df96f699c947b0fa5d38e002b8d
+      internalID: -1002697227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_113"
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 838
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b296ec588a1fe0e48b293715dfdffbec
+      internalID: -1422768518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_114"
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 838
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d72c24db9e969a4fa2d78f22452f717
+      internalID: -499968971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_115"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 838
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71aaec19547554542ad86d1911100859
+      internalID: -99650507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_116"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 782
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfdd611777e7a91438f4f51f5ccd58b5
+      internalID: 1035347860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_117"
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 782
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb44a6eff2c4ca4481a1ba208f9f422
+      internalID: 130414195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_118"
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 782
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb185d601cbbb041b632efcf3fbae66
+      internalID: -407836040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_119"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 782
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8caab570fb3408e40b22d10940677246
+      internalID: -398153381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_120"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 782
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf5810dd9fd9a741b68c66a8b5bd313
+      internalID: -361355611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_121"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 782
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2123f5d98f33c47a5968905eb60bbf
+      internalID: 1183426053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_122"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 782
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea19c2d0919c1f24891f4192cdb1e16e
+      internalID: -2111205757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_123"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 718
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b532179272a69114289642d0df2ad3ea
+      internalID: 1419656815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_124"
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 718
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87be8c473bb2eee4a8b2d1d29b1f7274
+      internalID: -713779624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_125"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 718
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2520280f40264834c830f6c205e16de1
+      internalID: 1726385474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_126"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 718
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2eda404816a9c4438c8b4a274d096c0
+      internalID: -1972377290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_127"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 718
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842c2b4b54ffc384f87f739708547f3a
+      internalID: 1215553230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_128"
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 719
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b319bb88300474c9c4bc7bc0e23399
+      internalID: -1797577825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_129"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 718
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19d805d63e366d4781788e34c1ce67b
+      internalID: -1510724813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_130"
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 718
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8725071bc2f3dff40a90ab1eb19f1eca
+      internalID: -1029812945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_131"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 654
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c41334713a3c74c97b146e61570a09
+      internalID: 968130236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_132"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 654
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee09bff817ff9ff4db3bb8519bcfc190
+      internalID: 904199159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_133"
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 654
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a01cb0b27bc644f9782b49f826749c
+      internalID: -266242383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_134"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 654
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fd7e30cc5777940a93248c03eccfeb
+      internalID: -1572958536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_135"
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 654
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ed29ff65916744aa5f4ebcf82dec5e
+      internalID: -1120589966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_136"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 654
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bdb0a3017b75d4cbcb0341cd0a7a18
+      internalID: 1357381056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_137"
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 654
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d622c28402e3694d838ef163d0f1b09
+      internalID: -1963566810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_138"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 654
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb289a7e9b4d5c4487c75ece696bee3
+      internalID: 2136714936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_139"
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 654
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a28cf8f6ce7ada46941971667314ba9
+      internalID: -1786322026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_140"
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 654
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538fbf12f8e5287419762a81e05556d7
+      internalID: -1042789563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_141"
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 654
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f267fc3d1f4eb840ad77d7093c05aef
+      internalID: -1713051156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_142"
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 654
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346f935e3cacfde4581040a3bc055ede
+      internalID: -784528298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_143"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 654
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d454f61d3adca4da3fa95bdab2af9d
+      internalID: -1294886940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_144"
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 654
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a951c92ef397243b4835fe36a3de45
+      internalID: -1341689350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_145"
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 656
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bcc053ae616164fb5731cceb7a3d45
+      internalID: 2114931195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_146"
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 654
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b88e74ec3510d45ad677e56422de7c
+      internalID: 283568528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_147"
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 654
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4bcde5ec6ae6694ca00fb4b22f662b7
+      internalID: 1788154721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_148"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 582
+        width: 28
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc061179ddfae640ad97bea5a1f57d5
+      internalID: 1558141453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_149"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 582
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c1a7489cd333f46b1d131d21197858
+      internalID: 764518425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_150"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 582
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ed11035585448419e30f51eb65889e
+      internalID: -837267562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_151"
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 582
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562ae7cd04df7c044856a771ae457a2e
+      internalID: 108293183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_152"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 582
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b751423d94af3c4da88edf46298fd0e
+      internalID: -2019087730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_153"
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 582
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b3315ce64173549bf56629afe53d3f
+      internalID: 398850684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_154"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 582
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27420e28ce5ae2947bb5f8c4409956ed
+      internalID: -1306128639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_155"
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 582
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ff41a4c3b9d374484a7676b7105d5e
+      internalID: 384013621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_156"
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 582
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c2422c32aadb54c95a792f50d73ef0
+      internalID: -670193561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_157"
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 582
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afb397a18f1b4049a502552ea0954dc
+      internalID: 1668960725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_158"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 582
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409316065953ad948a545faceb99869c
+      internalID: -604299137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_159"
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 582
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8096b502a0c2e4946926861c84424af7
+      internalID: 1368393012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_160"
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 582
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48ef1cf15c099d4c8011c93f0dcbf01
+      internalID: -1280444752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_161"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 502
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76251abf99e3894ba4369d3ba8b0e0f
+      internalID: -1678579043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_162"
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 502
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3f71425842f9348944bfe50fa4efb8
+      internalID: 16202968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_163"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 502
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f9f8ae7a903f640a79c1d8f8d4daf9
+      internalID: 1061786716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_164"
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 502
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceed5561eab7f24468a33d51148e956b
+      internalID: 546401277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_165"
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 502
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44152a162e7f7b945bc65de40635d35b
+      internalID: 42902735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_166"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 503
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb162f0360bc2b0458e557982bbfa85e
+      internalID: -1841345902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_167"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 502
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80156dcb9665b1f469d278b7b0f82691
+      internalID: -1023106604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_168"
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 502
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b220661cad14ea43878d66692abedc0
+      internalID: 1398151471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_169"
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 502
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb5b89089ea79749b01f66f290b5333
+      internalID: 606086603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_170"
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 502
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5a0e52005b1244f9577ebf93f9dca0
+      internalID: 810113280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_171"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 502
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a3f964fb177bd4b9df85af9520967d
+      internalID: 1355415765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_172"
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 502
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d556d6ea0c13a40a800975b88f080a
+      internalID: 481028297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_173"
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 502
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae1e71a9d4f76d4a8ce8cee9ee24181
+      internalID: -1421853736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_174"
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 503
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46defdd474952d1488ec7b130d0ed207
+      internalID: -975213469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_175"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 438
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486d06973e472a740a866d08b2f17ef7
+      internalID: -510535836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_176"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 438
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1308c605c7ce1ec4ebd4c989bef0c6b4
+      internalID: 1537393788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_177"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 438
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92beaeb7197502747ba00180ab79d8e6
+      internalID: -1038717027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_178"
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 438
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e72aa8635cf1049816ae29ce866809
+      internalID: -842167574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_179"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 438
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2e55d6cf99f714097eed1613ce04cf
+      internalID: -1471221741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_180"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 438
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82ca7f325bd8a94f960c48de385f6e8
+      internalID: -889501263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_181"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 438
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0dfd67752afe284296e6248acb6f8ea
+      internalID: -1254565311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_182"
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 438
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ffd70ab6566dc4b976fb1f2d5c34eb
+      internalID: -762896821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_183"
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 438
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228da712a3445014a9f594519cefe517
+      internalID: 332282779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_184"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 438
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455b97710fdcb6947ae8f6ec89c15b52
+      internalID: 526532287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_185"
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 438
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96f0e743b1c4864ab71e0ac556837d3
+      internalID: -924235520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_186"
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 366
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f7de19734b2974d9640a0e77a6306a
+      internalID: -2085893449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_187"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 415
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f007f5a5ae8c841a99d1668431e545
+      internalID: -1909672591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_188"
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 368
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8482b78a9ae80424da113ee35afdd950
+      internalID: -873422075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_189"
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 366
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24076872bac1dab439ce31c0e31b4b63
+      internalID: 1055168360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_190"
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 366
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb429cf1b657445468cfea7015444af2
+      internalID: -1396884366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_191"
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 366
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318089ca2ed3fec468113b251e3177b8
+      internalID: -1462152246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_192"
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 366
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48118f357e8315e4faea89d5f2743325
+      internalID: -1954727145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_193"
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 366
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acc811c44259cf4fb6c767529f46ffb
+      internalID: 784917783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_194"
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 366
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dacfb3194687b449a3d3feaa1eb9b5d
+      internalID: 1005025991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_195"
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 379
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4df8020932d73d4eb99776c6ec9641c
+      internalID: -179376218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_196"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 302
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fb5ab36421c8546b74fcc01a828062
+      internalID: -1812125220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_197"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 302
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc499231253e1347a9afe038cc8ae9f
+      internalID: -15894367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_198"
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 302
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5756afdadda94db47a79fc7c9e2a799f
+      internalID: 1673217078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_199"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 302
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14073704c9c9ff6409a289a6fb721225
+      internalID: -766332778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_200"
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 302
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee6b1882f08c0d4e85427e7899dcdd1
+      internalID: -1127050402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_201"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 302
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a9a237221999c43816857b1b10375f
+      internalID: -1886457150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_202"
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 302
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a952cded4d5414b47b5040aac84f0b8f
+      internalID: -207401815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_203"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 302
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02862a0349a5bfd41b86008d27547a4d
+      internalID: 1020188387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_204"
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 302
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fde026fa6c37d441b540a70c3ac466a
+      internalID: 1980401198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_205"
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 302
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645ac8623e1f3584fab704a96726e9cf
+      internalID: 791319832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_206"
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 302
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ff00e8003c141429d318f01dd78931
+      internalID: -1924006908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_207"
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 302
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee356751dad8ab44da26a2652dde8fde
+      internalID: -1662864648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_208"
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 302
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b958cb39a1438247867a8ca164eb8cb
+      internalID: 983039197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_209"
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 302
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c544c3be50aadc47bc1acf9e40925cb
+      internalID: 1983624886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_210"
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 302
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2387d24aabfcd4a9b3489abd5ba753
+      internalID: -1739219042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_211"
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 302
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1063b89c9958ce84fa3a8e4b5035da98
+      internalID: -1375715286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_212"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 230
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6ed9a824025d74bb313b76a0a6e023
+      internalID: -1614404086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_213"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 230
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae08d3709c078b47b959dabeb1fe246
+      internalID: 2090740166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_214"
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 230
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a364dc24173936f4b86e7c6ae6c65c10
+      internalID: -538553390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_215"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 230
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f03f3f0de6edd148accdef4215ae459
+      internalID: -548382848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_216"
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 230
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74dcf563226f6d4985cecc4d24502d4
+      internalID: 654734476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_217"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 230
+        width: 27
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba6e11820dd0e041a836c8cf5ac2396
+      internalID: -263157669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_218"
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 230
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77eab16e0c1d73a41b378130da946648
+      internalID: -581442485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_219"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 230
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fccfbcac362f044b36dd665b3650de
+      internalID: 1257339785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_220"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 158
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5f4e10d31a3734c8b05f0a46b7472d
+      internalID: 380360870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_221"
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 158
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e192a3f968a5c76468f0c5259ffdd75f
+      internalID: -175616457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_222"
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 158
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0276fcdfc8919284d926ebfbc403694f
+      internalID: -777071391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_223"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 158
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afccb435a90b4034cbce64fcc3e49718
+      internalID: 721194520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_224"
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 158
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0e0be949b01e3469737e60dd2bd9d9
+      internalID: -1677496510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_225"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 158
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fdfdf3e5172374c900113ae5599a6e
+      internalID: -1893114652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_226"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 158
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699c9052b92ac0348a0fa79d356b98fc
+      internalID: -1101081978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_227"
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 158
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d7103c20ce3924db1bea4bd1848992
+      internalID: 1806719173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_228"
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 158
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22eeac39472c9544a921879bcef44ea7
+      internalID: -1708273392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_229"
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 158
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b38021f97574f409696aa0a31452bf
+      internalID: -110221847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_230"
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 158
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da91b87fda4158c4a936afb02a21041b
+      internalID: 1847537684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_231"
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 158
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74101e3f751ef1f418b468031a7eb16c
+      internalID: -1854190696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_232"
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 158
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71231f7a45815ee4ebabaf5bcbc50fe9
+      internalID: -82028715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_233"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 86
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fba4e0e91c513444b437b7612ded56c
+      internalID: -1450644468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_234"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 86
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d9e4b44665e3b4faf84c4afaf530c4
+      internalID: -1435401637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_235"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 86
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56c275ef6e1eaa4d9f75c15ccfb52ba
+      internalID: -622838767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_236"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 86
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3e95b8c827bb14bb50e5655460216d
+      internalID: -1887641945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_237"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 86
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927cc042f93c5f447a434a254749797f
+      internalID: -1774908139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_238"
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 86
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0acf1f4101d1d646bad49ceb2b50ca3
+      internalID: 1002996722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_239"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 86
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193689373a79ee84fba948f9879d6076
+      internalID: -1688273667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_240"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 86
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92067ce08482e44e969b5d84eef2751
+      internalID: 1870511808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_241"
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 86
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec82010ecc255c34bb619f1ba2dc5a0a
+      internalID: 1634992031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_242"
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 86
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897ee7252f4dda24188919ea3aa9a4ec
+      internalID: 822911300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_243"
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 86
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb35dfc82419574fb69d3de45a5506a
+      internalID: -156397843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_244"
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 86
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00808956b22e42419255dc6241a361d
+      internalID: 1022775206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_245"
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 86
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4af6a7c8b9db5b4e9f4c8ded535db72
+      internalID: -1593172129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_246"
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 86
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc8dc5d29182b942a8176c911d11f93
+      internalID: 2137705752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_247"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 6
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f4ac37543977949a081818959f9155
+      internalID: 317579429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_248"
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 6
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3e775ae0425a14486ad86ef89d5431
+      internalID: -1151993217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_249"
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 6
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2368918545f65447b5e9a1c90814609
+      internalID: -1827383325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_250"
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 8
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185cd47b731497243b37ec40d52df1fd
+      internalID: -861684592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_251"
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 8
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76c60f71c0528e4e9b01dfa219a29b3
+      internalID: -1307036633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_252"
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 10
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954f527b790bcb245b737204ddecba99
+      internalID: 2113020430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_253"
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 6
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ec98b6742c3c340990c453a7e56d96
+      internalID: -1568851773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_254"
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 9
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55d553e809e6224d969d98121aa3f94
+      internalID: -117584259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_255"
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 6
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3388f184011a59a48877c129314d7edc
+      internalID: 927369124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_256"
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 6
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3d2b5ac1738d34786af5160913f26f
+      internalID: 1721813065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_0": 372984154
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_1": 593257269
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_10": 220685654
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_100": 1982879098
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_101": -830331865
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_102": 2055625935
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_103": -1140511141
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_104": 1768230918
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_105": 468521469
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_106": 1092111241
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_107": 1803783492
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_108": 762677010
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_109": -894455955
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_11": 650841430
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_110": 1333117044
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_111": 772785483
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_112": -1002697227
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_113": -1422768518
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_114": -499968971
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_115": -99650507
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_116": 1035347860
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_117": 130414195
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_118": -407836040
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_119": -398153381
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_12": -857400380
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_120": -361355611
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_121": 1183426053
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_122": -2111205757
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_123": 1419656815
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_124": -713779624
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_125": 1726385474
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_126": -1972377290
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_127": 1215553230
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_128": -1797577825
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_129": -1510724813
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_13": 793653635
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_130": -1029812945
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_131": 968130236
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_132": 904199159
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_133": -266242383
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_134": -1572958536
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_135": -1120589966
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_136": 1357381056
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_137": -1963566810
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_138": 2136714936
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_139": -1786322026
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_14": -264470877
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_140": -1042789563
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_141": -1713051156
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_142": -784528298
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_143": -1294886940
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_144": -1341689350
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_145": 2114931195
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_146": 283568528
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_147": 1788154721
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_148": 1558141453
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_149": 764518425
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_15": 2127631455
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_150": -837267562
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_151": 108293183
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_152": -2019087730
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_153": 398850684
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_154": -1306128639
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_155": 384013621
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_156": -670193561
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_157": 1668960725
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_158": -604299137
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_159": 1368393012
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_16": -1175985660
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_160": -1280444752
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_161": -1678579043
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_162": 16202968
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_163": 1061786716
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_164": 546401277
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_165": 42902735
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_166": -1841345902
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_167": -1023106604
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_168": 1398151471
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_169": 606086603
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_17": -124875068
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_170": 810113280
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_171": 1355415765
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_172": 481028297
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_173": -1421853736
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_174": -975213469
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_175": -510535836
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_176": 1537393788
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_177": -1038717027
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_178": -842167574
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_179": -1471221741
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_18": 1664766215
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_180": -889501263
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_181": -1254565311
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_182": -762896821
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_183": 332282779
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_184": 526532287
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_185": -924235520
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_186": -2085893449
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_187": -1909672591
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_188": -873422075
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_189": 1055168360
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_19": 264165659
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_190": -1396884366
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_191": -1462152246
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_192": -1954727145
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_193": 784917783
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_194": 1005025991
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_195": -179376218
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_196": -1812125220
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_197": -15894367
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_198": 1673217078
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_199": -766332778
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_2": 1259971733
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_20": -1388821507
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_200": -1127050402
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_201": -1886457150
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_202": -207401815
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_203": 1020188387
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_204": 1980401198
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_205": 791319832
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_206": -1924006908
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_207": -1662864648
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_208": 983039197
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_209": 1983624886
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_21": -229463800
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_210": -1739219042
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_211": -1375715286
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_212": -1614404086
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_213": 2090740166
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_214": -538553390
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_215": -548382848
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_216": 654734476
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_217": -263157669
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_218": -581442485
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_219": 1257339785
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_22": 2087348272
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_220": 380360870
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_221": -175616457
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_222": -777071391
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_223": 721194520
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_224": -1677496510
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_225": -1893114652
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_226": -1101081978
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_227": 1806719173
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_228": -1708273392
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_229": -110221847
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_23": -1565098170
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_230": 1847537684
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_231": -1854190696
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_232": -82028715
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_233": -1450644468
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_234": -1435401637
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_235": -622838767
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_236": -1887641945
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_237": -1774908139
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_238": 1002996722
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_239": -1688273667
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_24": 1084996526
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_240": 1870511808
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_241": 1634992031
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_242": 822911300
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_243": -156397843
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_244": 1022775206
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_245": -1593172129
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_246": 2137705752
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_247": 317579429
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_248": -1151993217
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_249": -1827383325
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_25": -796964692
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_250": -861684592
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_251": -1307036633
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_252": 2113020430
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_253": -1568851773
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_254": -117584259
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_255": 927369124
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_256": 1721813065
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_26": 794318580
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_27": 936497412
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_28": -1782467043
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_29": 864687882
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_3": 1569168963
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_30": 214427860
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_31": 878828267
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_32": 1870776689
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_33": -2145151024
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_34": 138311858
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_35": -2089306877
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_36": 795630780
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_37": -1030882756
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_38": -1660657234
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_39": 1030691780
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_4": -1251694168
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_40": -462834067
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_41": -167447343
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_42": -423359362
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_43": -954035453
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_44": 1857177188
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_45": -1635825854
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_46": 1325884331
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_47": 1169826717
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_48": 922052595
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_49": -1060497350
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_5": 403782687
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_50": -394411973
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_51": 493698183
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_52": -696470754
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_53": 1126643538
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_54": -2145906963
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_55": 1292372716
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_56": 1809263737
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_57": -1287126121
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_58": -405981994
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_59": -1677510063
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_6": -1666310206
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_60": -1093126588
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_61": -1541308958
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_62": 1214734439
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_63": -2093468660
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_64": 776371255
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_65": 364600965
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_66": 768460770
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_67": 38456684
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_68": -1996999222
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_69": -571997748
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_7": 806953018
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_70": 1368434811
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_71": -401994754
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_72": -495294918
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_73": 2127351366
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_74": -214583128
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_75": 1145025625
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_76": -1244643004
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_77": 614484523
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_78": -1708284893
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_79": -1576572639
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_8": 1940093295
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_80": -1386039241
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_81": -989510959
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_82": 700405514
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_83": 951732126
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_84": 556751727
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_85": -340459978
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_86": -2130868781
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_87": 1124061828
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_88": 1144704590
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_89": -701363241
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_9": 1325662897
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_90": -999812209
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_91": 297458181
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_92": 961586274
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_93": -50955319
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_94": 38289656
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_95": 1956118830
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_96": -210797807
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_97": 1850589521
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_98": 1021606064
+      "Markos Magic Football - Marko \u2014 \u043A\u043E\u043F\u0438\u044F_99": -1525408946
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,15 +2,21 @@ using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
-using UnityEngine.UI; // Required for Button
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
     [SerializeField] private PlayerController _playerController;
-    public Canvas GameOverCanvas;
-    public TMP_Text TimerText; // Score
-    [SerializeField] public Canvas StartCanvas; // Canvas with the Start button
-    [SerializeField] public Button StartButton; // Reference to the Start Button
+    [SerializeField] private TextMeshProUGUI _scoreText;
+    [SerializeField] private TextMeshProUGUI _totalScoreText;
+    [SerializeField] private Button _restartButton; // Reference to the Start Button
+    [SerializeField] private Button _startButton; // Reference to the Start Button
+    [SerializeField] private Button _menuButton;
+    [SerializeField] private Button _resumeButton;
+    [SerializeField] private Button _exitButton;
+    [SerializeField] private GameObject _panel;
+
+    public Canvas GameMenuCanvas;
 
     private void Awake()
     {
@@ -20,22 +26,24 @@ public class GameController : MonoBehaviour
             _playerController.PlayerDied += OnPlayerDie;
         }
 
-        // Initialize UI canvases
-        GameOverCanvas.gameObject.SetActive(false);
-        StartCanvas.gameObject.SetActive(true); // Show the StartCanvas on game start
+        // Initialize UI canvase and it's elements
+        GameMenuCanvas.gameObject.SetActive(true);
+        _startButton.gameObject.SetActive(true);
+        _scoreText.gameObject.SetActive(true);
+        _panel.gameObject.SetActive(true);
+        _restartButton.gameObject.SetActive(false); 
+        _menuButton.gameObject.SetActive(false);
+        _resumeButton.gameObject.SetActive(false);
+        _exitButton.gameObject.SetActive(false);
+        _totalScoreText.gameObject.SetActive(false);
 
         // Pause the game initially
         Time.timeScale = 0;
+    }
 
-        // Set up the Start button
-        if (StartButton != null)
-        {
-            StartButton.onClick.AddListener(StartGameClicked);
-        }
-        else 
-        { 
-            Debug.LogError("StartButton is not assigned in the inspector!");
-        }
+    private void Update()
+    {
+        _scoreText.text = Math.Round(Time.timeSinceLevelLoad, 2).ToString();
     }
 
     private void OnPlayerDie()
@@ -46,20 +54,54 @@ public class GameController : MonoBehaviour
         }
 
         Time.timeScale = 0;
-        GameOverCanvas.gameObject.SetActive(true);
-        TimerText.text = "Your total score: " + Math.Round(Time.timeSinceLevelLoad, 2);
+        _scoreText.gameObject.SetActive(false);
+        _menuButton.gameObject.SetActive(false);
+        _panel.gameObject.SetActive(true);
+        _restartButton.gameObject.SetActive(true);
+        _totalScoreText.gameObject.SetActive(true);
+        _totalScoreText.text = "Your total score: " + Math.Round(Time.timeSinceLevelLoad, 2);
     }
 
     public void RestartGameClicked()
     {
-        Time.timeScale = 1;
+        Time.timeScale = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void StartGameClicked()
     {
         Debug.Log("Start is pressed");
-        StartCanvas.gameObject.SetActive(false); // Hide the StartCanvas
+        _startButton.gameObject.SetActive(false); // Hide the StartButton
+        _panel.gameObject.SetActive(false);
+        _menuButton.gameObject.SetActive(true);
         Time.timeScale = 1; // Resume the game
+    }
+
+    public void OnMenuClicked()
+    {
+        Time.timeScale = 0;
+        _panel.gameObject.SetActive(true);
+        ButtonVisibilityChange(true);
+    }
+
+    public void OnResumeClicked()
+    {
+        Time.timeScale = 1f;
+        _panel.gameObject.SetActive(false);
+        ButtonVisibilityChange(false);
+        
+    }
+
+    public void OnExitClicked()
+    {
+        Time.timeScale = 0f;
+        Application.Quit();
+    }
+
+    private void ButtonVisibilityChange(bool status)
+    {
+        _menuButton.gameObject.SetActive(!status);
+        _exitButton.gameObject.SetActive(status);
+        _resumeButton.gameObject.SetActive(status);
     }
 }
