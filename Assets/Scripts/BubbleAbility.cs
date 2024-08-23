@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class BubbleAbility : MonoBehaviour
 {
@@ -14,9 +13,6 @@ public class BubbleAbility : MonoBehaviour
     private Coroutine _abilityCoroutine;
     private bool _isShielded = false;
 
-    public UnityAction OnAbilityActivated;
-    public UnityAction OnAbilityDeactivated;
-
     private void Awake()
     {
         ResetAbility();
@@ -24,19 +20,34 @@ public class BubbleAbility : MonoBehaviour
 
     private void Update()
     {
+        // For testing purposes, trigger the ability with the 'A' key
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            ActivateAbility();
+        }
+
+        // Ensure the bubble follows the player
         if (_currentBubble != null)
         {
-            // Ensure the bubble follows the player
             _currentBubble.transform.position = transform.position;
         }
     }
 
+    // Public method to activate the ability directly
     public void ActivateAbility()
     {
+        Debug.Log("ActivateAbility called.");  // Confirm that this method is invoked
+
+        if (_isShielded)
+        {
+            Debug.Log("Ability already active.");
+            return;
+        }
+
         _isShielded = true;
         _currentBubble = Instantiate(_bubblePrefab, transform.position, Quaternion.identity);
         _abilityCoroutine = StartCoroutine(AbilityUseTimer());
-        OnAbilityActivated?.Invoke();
+        Debug.Log("Ability Activated");
     }
 
     public void DeactivateAbility()
@@ -50,7 +61,6 @@ public class BubbleAbility : MonoBehaviour
         }
 
         _abilityCoroutine = StartCoroutine(AbilityCooldown());
-        OnAbilityDeactivated?.Invoke();
     }
 
     private void DestroyBubble()

@@ -5,6 +5,7 @@ using UnityEngine;
 public class FallingObject : MonoBehaviour
 {
     [SerializeField] private GameObject fallingObject;
+    [SerializeField] private GameObject fallingAbilityObject;
     private float wait = 0.5f;
     private float xLeft;
     private float xRight;
@@ -26,13 +27,21 @@ public class FallingObject : MonoBehaviour
     private void Fall()
     {
         GameObject newFallingObject = Instantiate(fallingObject, new Vector3(Random.Range(xLeft, xRight), transform.position.y, 0), Quaternion.identity);
+        GameObject newFallingAbiityObject = Instantiate(fallingAbilityObject, new Vector3(Random.Range(xLeft, xRight), transform.position.y, 0), Quaternion.identity);
 
         // Set xLeft and xRight on BallFalling component
         BallFalling ballFalling = newFallingObject.GetComponent<BallFalling>();
+        BallFalling ballAbilityFalling = newFallingAbiityObject.GetComponent<BallFalling>();
+        
         if (ballFalling != null)
         {
             ballFalling.SetBounds(xLeft, xRight);
-        }
+        }  
+        
+       if (ballAbilityFalling != null)
+        {
+            ballAbilityFalling.SetBounds(xLeft, xRight);
+       }
     }
     
     public float GetXLeft() => xLeft;

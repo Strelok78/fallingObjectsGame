@@ -21,10 +21,6 @@ public class PlayerController : MonoBehaviour
         rigidbody2D = GetComponent<Rigidbody2D>();
         _animationController = GetComponent<AnimationController>();
         _bubbleAbility = GetComponent<BubbleAbility>(); // Get the BubbleAbility component
-
-        // Subscribe to the ability actions
-        _bubbleAbility.OnAbilityActivated += OnAbilityActivated;
-        _bubbleAbility.OnAbilityDeactivated += OnAbilityDeactivated;
     }
 
     private void Update()
@@ -56,16 +52,6 @@ public class PlayerController : MonoBehaviour
             _isFacingRight = !_isFacingRight;
             _animationController.OnFlipSprite?.Invoke(_isFacingRight);
         }
-    }
-
-    private void OnAbilityActivated()
-    {
-        // Handle any additional logic needed when the ability is activated
-    }
-
-    private void OnAbilityDeactivated()
-    {
-        // Handle any additional logic needed when the ability is deactivated
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
