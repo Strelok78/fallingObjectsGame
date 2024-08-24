@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4067694849867966699}
   - component: {fileID: 6489282254280413212}
   - component: {fileID: 1542133427311674209}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fallingObject
   m_TagString: Object
   m_Icon: {fileID: 0}
@@ -161,3 +161,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8298da500fe2248b294c21bcf0a2e47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isAbility: 0

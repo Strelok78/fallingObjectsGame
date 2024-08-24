@@ -27,7 +27,7 @@ public class AnimationController : MonoBehaviour
 
     private void SetXVelocity(float xVelocity)
     {
-        _animator.SetFloat("xVelocity", xVelocity);
+        _animator.SetFloat("xVelocity", xVelocity/2);
     }
 
     private void FlipSprite(bool isFacingRight)

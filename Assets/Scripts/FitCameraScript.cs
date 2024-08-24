@@ -15,12 +15,6 @@ public class FitCameraScript : MonoBehaviour
 
     private void Start()
     {
-        if (spriteRenderer == null || mainCamera == null)
-        {
-            Debug.LogError("Missing required components! Script requires a SpriteRenderer and the main Camera.");
-            return;
-        }
-
         float spriteWidth = spriteRenderer.sprite.bounds.size.x;
         float cameraWidth = mainCamera.orthographicSize * mainCamera.aspect * 2.0f;
 

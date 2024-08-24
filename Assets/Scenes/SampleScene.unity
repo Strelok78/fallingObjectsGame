@@ -2114,8 +2114,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa12af3e07da21742be1988284fbd29a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallingObject: {fileID: 5522800464319791937, guid: a07cd03d407784e3d91a6a865aaa6fa6, type: 3}
-  fallingAbilityObject: {fileID: 2430491993167076220, guid: 4d7526db7851043b981c94bfee910d6a, type: 3}
+  _fallingObject: {fileID: 2430491993167076220, guid: 4d7526db7851043b981c94bfee910d6a, type: 3}
+  _fallingAbilityObject: {fileID: 2430491993167076220, guid: 4d7526db7851043b981c94bfee910d6a, type: 3}
+  _ballSpawnTime: 0.25
+  _abilitySpawnTime: 7
 --- !u!1 &1856772424
 GameObject:
   m_ObjectHideFlags: 0
@@ -2457,7 +2459,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1461334581326581461, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.5
+      value: -3.15
       objectReference: {fileID: 0}
     - target: {fileID: 1461334581326581461, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
       propertyPath: m_LocalPosition.z

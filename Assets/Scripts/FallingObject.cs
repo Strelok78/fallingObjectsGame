@@ -4,46 +4,54 @@ using UnityEngine;
 
 public class FallingObject : MonoBehaviour
 {
-    [SerializeField] private GameObject fallingObject;
-    [SerializeField] private GameObject fallingAbilityObject;
-    private float wait = 0.5f;
-    private float xLeft;
-    private float xRight;
-    private Camera mainCamera;
+    [SerializeField] private GameObject _fallingObject;
+    [SerializeField] private GameObject _fallingAbilityObject;
+    [SerializeField] private float _ballSpawnTime = 0.25f;
+    [SerializeField] private float _abilitySpawnTime = 7f;
+
+    private Camera _mainCamera;
+
+    private float _xLeft;
+    private float _xRight;
 
     private void Awake()
     {
-        mainCamera = Camera.main;
-        float screenHalfWidth = mainCamera.orthographicSize * mainCamera.aspect;
-        xLeft = mainCamera.transform.position.x - screenHalfWidth - 0.5f;
-        xRight = mainCamera.transform.position.x + screenHalfWidth - 0.5f;
+        _mainCamera = Camera.main;
+        float screenHalfWidth = _mainCamera.orthographicSize * _mainCamera.aspect;
+        _xLeft = _mainCamera.transform.position.x - screenHalfWidth - 0.5f;
+        _xRight = _mainCamera.transform.position.x + screenHalfWidth - 0.5f;
     }
 
     private void Start()
     {
-        InvokeRepeating("Fall", wait, wait);
+        InvokeRepeating("Fall", _ballSpawnTime, _ballSpawnTime);
+        InvokeRepeating("FallAbility", _abilitySpawnTime, _abilitySpawnTime);
+    }
+
+    private void FallAbility()
+    {
+        GameObject newFallingAbiityObject = Instantiate(_fallingAbilityObject, new Vector3(Random.Range(_xLeft, _xRight), transform.position.y, 0), Quaternion.identity);
+        BallFalling ballAbilityFalling = newFallingAbiityObject.GetComponent<BallFalling>();
+
+        if (ballAbilityFalling != null)
+        {
+            ballAbilityFalling.SetBounds(_xLeft, _xRight);
+        }
     }
 
     private void Fall()
     {
-        GameObject newFallingObject = Instantiate(fallingObject, new Vector3(Random.Range(xLeft, xRight), transform.position.y, 0), Quaternion.identity);
-        GameObject newFallingAbiityObject = Instantiate(fallingAbilityObject, new Vector3(Random.Range(xLeft, xRight), transform.position.y, 0), Quaternion.identity);
+        GameObject newFallingObject = Instantiate(_fallingObject, new Vector3(Random.Range(_xLeft, _xRight), transform.position.y, 0), Quaternion.identity);
 
         // Set xLeft and xRight on BallFalling component
         BallFalling ballFalling = newFallingObject.GetComponent<BallFalling>();
-        BallFalling ballAbilityFalling = newFallingAbiityObject.GetComponent<BallFalling>();
-        
+
         if (ballFalling != null)
         {
-            ballFalling.SetBounds(xLeft, xRight);
-        }  
-        
-       if (ballAbilityFalling != null)
-        {
-            ballAbilityFalling.SetBounds(xLeft, xRight);
-       }
+            ballFalling.SetBounds(_xLeft, _xRight);
+        }
     }
-    
-    public float GetXLeft() => xLeft;
-    public float GetXRight() => xRight;
+
+    public float GetXLeft() => _xLeft;
+    public float GetXRight() => _xRight;
 }
