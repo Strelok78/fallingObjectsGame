@@ -27,7 +27,13 @@ public class AnimationController : MonoBehaviour
 
     private void SetXVelocity(float xVelocity)
     {
-        _animator.SetFloat("xVelocity", xVelocity/2);
+        if (xVelocity <= 0)
+            AnimateIdle();
+        else
+        {
+            _animator.SetFloat("xVelocity", xVelocity / 2);
+            AnimateRunning();
+        }
     }
 
     private void FlipSprite(bool isFacingRight)
@@ -35,5 +41,25 @@ public class AnimationController : MonoBehaviour
         Vector3 localScale = transform.localScale;
         localScale.x = isFacingRight ? Mathf.Abs(localScale.x) : -Mathf.Abs(localScale.x);
         transform.localScale = localScale;
+    }
+
+    private void AnimateIdle()
+    {
+        _animator.Play("Idle");
+    }
+
+    private void AnimateRunning()
+    {
+        _animator.Play("Movement");
+    }
+
+    private void ShieldPicked()
+    {
+
+    }
+
+    private void AnimateShielded()
+    {
+
     }
 }

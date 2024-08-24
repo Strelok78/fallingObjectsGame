@@ -46,6 +46,7 @@ public class BubbleAbility : MonoBehaviour
     {
         _isShielded = false;
         DestroyBubble();
+        ResetAbility();
 
         if (_abilityCoroutine != null)
         {
