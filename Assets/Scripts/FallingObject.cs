@@ -6,8 +6,11 @@ public class FallingObject : MonoBehaviour
 {
     [SerializeField] private GameObject _fallingObject;
     [SerializeField] private GameObject _fallingAbilityObject;
-    [SerializeField] private float _ballSpawnTime = 0.25f;
-    [SerializeField] private float _abilitySpawnTime = 7f;
+    [SerializeField] private float _ballSpawnTime;
+    [SerializeField] private float _abilitySpawnTime;
+    [SerializeField] private float _minBallSpawnTime = 0.2f;
+    [SerializeField] private float _spawnTimeDecreaseRate = 0.1f;
+    [SerializeField] private float _spawnTimeDecreaseInterval = 10f;
 
     private Camera _mainCamera;
 
@@ -26,6 +29,7 @@ public class FallingObject : MonoBehaviour
     {
         InvokeRepeating("Fall", _ballSpawnTime, _ballSpawnTime);
         InvokeRepeating("FallAbility", _abilitySpawnTime, _abilitySpawnTime);
+        StartCoroutine(DecreaseSpawnTime());
     }
 
     private void FallAbility()
@@ -49,6 +53,17 @@ public class FallingObject : MonoBehaviour
         if (ballFalling != null)
         {
             ballFalling.SetBounds(_xLeft, _xRight);
+        }
+    }
+
+    private IEnumerator DecreaseSpawnTime()
+    {
+        while (_ballSpawnTime > _minBallSpawnTime)
+        {
+            yield return new WaitForSeconds(_spawnTimeDecreaseInterval); // Adjust the interval as needed
+            _ballSpawnTime = Mathf.Max(_ballSpawnTime - _spawnTimeDecreaseRate, _minBallSpawnTime);
+            CancelInvoke("Fall");
+            InvokeRepeating("Fall", _ballSpawnTime, _ballSpawnTime);
         }
     }
 

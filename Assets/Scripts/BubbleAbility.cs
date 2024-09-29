@@ -4,17 +4,18 @@ using UnityEngine;
 public class BubbleAbility : MonoBehaviour
 {
     [SerializeField] private GameObject _bubblePrefab;
-    
+    [SerializeField] private float _abilityBaseTimer = 5f;
+
     public bool IsShielded => _isShielded;
 
     private GameObject _currentBubble;
+    private Coroutine _popping;
     private Coroutine _abilityCoroutine;
+    private BubbleAnimationController _bubbleAnimationController;
 
     private float _abilityTimer;
-    private float _abilityBaseTimer = 5f;
     private bool _isShielded = false;
 
-    // Public method to activate the ability directly
     public void ActivateAbility()
     {
         if (_isShielded)
@@ -25,6 +26,7 @@ public class BubbleAbility : MonoBehaviour
 
         _isShielded = true;
         _currentBubble = Instantiate(_bubblePrefab, transform.position, Quaternion.identity);
+        _bubbleAnimationController = _currentBubble.GetComponent<BubbleAnimationController>();
         _abilityCoroutine = StartCoroutine(AbilityUseTimer());
     }
 
@@ -35,10 +37,13 @@ public class BubbleAbility : MonoBehaviour
 
     private void Update()
     {
-        // Ensure the bubble follows the player
         if (_currentBubble != null)
         {
             _currentBubble.transform.position = transform.position;
+        }
+        else if (_popping != null)
+        {
+            StopCoroutine(_popping);
         }
     }
 
@@ -58,9 +63,16 @@ public class BubbleAbility : MonoBehaviour
     {
         if (_currentBubble != null)
         {
-            Destroy(_currentBubble);
-            _currentBubble = null;
+            _bubbleAnimationController.PlayBubblePoppedAnimation();
+            _popping = StartCoroutine(AnimatePopping());
         }
+    }
+
+    private IEnumerator AnimatePopping()
+    {
+        yield return new WaitForSeconds(_bubbleAnimationController.GetAnimationLength("BubbleAnimation"));
+        Destroy(_currentBubble);
+        _currentBubble = null;
     }
 
     private void ResetAbility()

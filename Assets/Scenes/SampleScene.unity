@@ -2116,8 +2116,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _fallingObject: {fileID: 5522800464319791937, guid: a07cd03d407784e3d91a6a865aaa6fa6, type: 3}
   _fallingAbilityObject: {fileID: 2430491993167076220, guid: 4d7526db7851043b981c94bfee910d6a, type: 3}
-  _ballSpawnTime: 0.25
-  _abilitySpawnTime: 7
+  _ballSpawnTime: 1
+  _abilitySpawnTime: 3
+  _minBallSpawnTime: 0.1
+  _spawnTimeDecreaseRate: 0.1
+  _spawnTimeDecreaseInterval: 3
 --- !u!1 &1856772424
 GameObject:
   m_ObjectHideFlags: 0
@@ -2497,10 +2500,18 @@ PrefabInstance:
       propertyPath: _bubbleAbility
       value: 
       objectReference: {fileID: 4550884437077925377}
+    - target: {fileID: 2088939475948927861, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
+      propertyPath: _animationController
+      value: 
+      objectReference: {fileID: 4550884437077925378}
     - target: {fileID: 3172281821114149487, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
       propertyPath: _ballFalling
       value: 
       objectReference: {fileID: 6672794100135844941, guid: 4d7526db7851043b981c94bfee910d6a, type: 3}
+    - target: {fileID: 3172281821114149487, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
+      propertyPath: _abilityBaseTimer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2531,6 +2542,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e11c10b14ab04f469415ea3a0940225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4550884437077925378 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4685965444390243624, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
+  m_PrefabInstance: {fileID: 4550884437077925367}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb485b60e8e7149ab8455e599ed23377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807

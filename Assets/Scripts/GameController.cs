@@ -26,12 +26,12 @@ public class GameController : MonoBehaviour
             _playerController.PlayerDied += OnPlayerDie;
         }
 
-        // Initialize UI canvase and it's elements
+        // Initialize UI canvase and its elements
         GameMenuCanvas.gameObject.SetActive(true);
         _startButton.gameObject.SetActive(true);
         _scoreText.gameObject.SetActive(true);
         _panel.gameObject.SetActive(true);
-        _restartButton.gameObject.SetActive(false); 
+        _restartButton.gameObject.SetActive(false);
         _menuButton.gameObject.SetActive(false);
         _resumeButton.gameObject.SetActive(false);
         _exitButton.gameObject.SetActive(false);
@@ -43,7 +43,7 @@ public class GameController : MonoBehaviour
 
     private void Update()
     {
-        _scoreText.text = Math.Round(Time.timeSinceLevelLoad, 2).ToString();
+        _scoreText.text = Mathf.FloorToInt(Time.timeSinceLevelLoad).ToString();
     }
 
     private void OnPlayerDie()
@@ -59,7 +59,8 @@ public class GameController : MonoBehaviour
         _panel.gameObject.SetActive(true);
         _restartButton.gameObject.SetActive(true);
         _totalScoreText.gameObject.SetActive(true);
-        _totalScoreText.text = "Your total score: " + Math.Round(Time.timeSinceLevelLoad, 2);
+        int score = Mathf.FloorToInt(Time.timeSinceLevelLoad);
+        _totalScoreText.text = "Your total score: " + score;
     }
 
     public void RestartGameClicked()
@@ -89,7 +90,6 @@ public class GameController : MonoBehaviour
         Time.timeScale = 1f;
         _panel.gameObject.SetActive(false);
         ButtonVisibilityChange(false);
-        
     }
 
     public void OnExitClicked()

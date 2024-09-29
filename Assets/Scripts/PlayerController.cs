@@ -1,13 +1,12 @@
 using System;
 using UnityEngine;
 using UnityEngine.Events;
-using System.Collections;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private AnimationController _animationController;
-    [SerializeField] private BubbleAbility _bubbleAbility;  // Reference to BubbleAbility
+    [SerializeField] private BubbleAbility _bubbleAbility;
 
     private float _horizontalInput;
     private float _moveSpeed = 10f;
@@ -20,21 +19,11 @@ public class PlayerController : MonoBehaviour
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         _animationController = GetComponent<AnimationController>();
-        _bubbleAbility = GetComponent<BubbleAbility>(); // Get the BubbleAbility component
+        _bubbleAbility = GetComponent<BubbleAbility>();
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !_bubbleAbility.IsShielded)
-        {
-            _bubbleAbility.ActivateAbility();
-        }
-
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            _bubbleAbility.DeactivateAbility();
-        }
-
         _horizontalInput = Input.GetAxis("Horizontal");
         FlipSprite();
     }
@@ -60,6 +49,10 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(gameObject);
             PlayerDied?.Invoke();
+        }
+        else if (collision.gameObject.CompareTag("Object") && _bubbleAbility.IsShielded)
+        {
+            _bubbleAbility.DeactivateAbility();
         }
     }
 }
