@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
 
     private void HandleTouchInput()
     {
-#if UNITY_WEBGL
+
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
@@ -83,6 +83,5 @@ public class PlayerController : MonoBehaviour
         {
             _horizontalInput = 0f; // Stop moving if no touch
         }
-#endif
     }
 }
