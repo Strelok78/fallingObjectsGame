@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         _horizontalInput = Input.GetAxis("Horizontal");
+        HandleTouchInput();
         FlipSprite();
     }
 
@@ -54,5 +55,34 @@ public class PlayerController : MonoBehaviour
         {
             _bubbleAbility.DeactivateAbility();
         }
+    }
+
+    private void HandleTouchInput()
+    {
+#if UNITY_WEBGL
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+            if (touch.phase == TouchPhase.Began || touch.phase == TouchPhase.Moved || touch.phase == TouchPhase.Stationary)
+            {
+                if (touch.position.x < Screen.width / 2)
+                {
+                    _horizontalInput = -1f; // Move left
+                }
+                else if (touch.position.x > Screen.width / 2)
+                {
+                    _horizontalInput = 1f; // Move right
+                }
+            }
+            else if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
+            {
+                _horizontalInput = 0f; // Stop moving
+            }
+        }
+        else
+        {
+            _horizontalInput = 0f; // Stop moving if no touch
+        }
+#endif
     }
 }
