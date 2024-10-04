@@ -2509,6 +2509,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6672794100135844941, guid: 4d7526db7851043b981c94bfee910d6a, type: 3}
     - target: {fileID: 3172281821114149487, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
+      propertyPath: _bubbleAnimator
+      value: 
+      objectReference: {fileID: 3199114439752451939, guid: 8b3f426d694b64792bc41fc178035ef2, type: 3}
+    - target: {fileID: 3172281821114149487, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
       propertyPath: _abilityBaseTimer
       value: 2
       objectReference: {fileID: 0}
