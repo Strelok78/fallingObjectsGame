@@ -8,10 +8,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private AnimationController _animationController;
     [SerializeField] private BubbleAbility _bubbleAbility;
 
-    private float _horizontalInput;
     private float _moveSpeed = 10f;
     private bool _isFacingRight = true;
     private Rigidbody2D rigidbody2D;
+    private bool _isDragging = false;
 
     public event UnityAction PlayerDied;
 
@@ -24,20 +24,27 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        _horizontalInput = Input.GetAxis("Horizontal");
         HandleTouchInput();
         FlipSprite();
     }
 
     private void FixedUpdate()
     {
-        rigidbody2D.velocity = new Vector2(_horizontalInput * _moveSpeed, rigidbody2D.velocity.y);
-        _animationController.OnSetXVelocity?.Invoke(Math.Abs(rigidbody2D.velocity.x));
+        if (_isDragging)
+        {
+            Vector2 touchPosition = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
+            rigidbody2D.velocity = new Vector2((touchPosition.x - transform.position.x) * _moveSpeed, rigidbody2D.velocity.y);
+            _animationController.OnSetXVelocity?.Invoke(Math.Abs(rigidbody2D.velocity.x));
+        }
+        else
+        {
+            rigidbody2D.velocity = new Vector2(0, rigidbody2D.velocity.y);
+        }
     }
 
     private void FlipSprite()
     {
-        if (_isFacingRight && _horizontalInput < 0f || !_isFacingRight && _horizontalInput > 0f)
+        if (_isFacingRight && rigidbody2D.velocity.x < 0f || !_isFacingRight && rigidbody2D.velocity.x > 0f)
         {
             _isFacingRight = !_isFacingRight;
             _animationController.OnFlipSprite?.Invoke(_isFacingRight);
@@ -59,29 +66,33 @@ public class PlayerController : MonoBehaviour
 
     private void HandleTouchInput()
     {
-
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
-            if (touch.phase == TouchPhase.Began || touch.phase == TouchPhase.Moved || touch.phase == TouchPhase.Stationary)
+            Vector2 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
+
+            switch (touch.phase)
             {
-                if (touch.position.x < Screen.width / 2)
-                {
-                    _horizontalInput = -1f; // Move left
-                }
-                else if (touch.position.x > Screen.width / 2)
-                {
-                    _horizontalInput = 1f; // Move right
-                }
+                case TouchPhase.Began:
+                    if (GetComponent<Collider2D>() == Physics2D.OverlapPoint(touchPosition))
+                    {
+                        _isDragging = true;
+                    }
+                    break;
+
+                case TouchPhase.Moved:
+                case TouchPhase.Stationary:
+                    if (_isDragging)
+                    {
+                        transform.position = new Vector2(touchPosition.x, transform.position.y);
+                    }
+                    break;
+
+                case TouchPhase.Ended:
+                case TouchPhase.Canceled:
+                    _isDragging = false;
+                    break;
             }
-            else if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
-            {
-                _horizontalInput = 0f; // Stop moving
-            }
-        }
-        else
-        {
-            _horizontalInput = 0f; // Stop moving if no touch
         }
     }
 }
