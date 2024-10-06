@@ -6,25 +6,26 @@ public class FallingObject : MonoBehaviour
 {
     [SerializeField] private GameObject _fallingObject;
     [SerializeField] private float _ballSpawnTime;
-    [SerializeField] private float _minBallSpawnTime = 0.2f;
+    [SerializeField] private float _minBallSpawnTime = 0.6f;
     [SerializeField] private float _spawnTimeDecreaseRate = 0.1f;
     [SerializeField] private float _spawnTimeDecreaseInterval = 10f;
 
+    private Camera mainCamera;
+    private float screenHalfWidth;
     private float _xLeft;
     private float _xRight;
 
-    private void Awake()
-    {
-        Camera mainCamera = Camera.main;
-        float screenHalfWidth = mainCamera.orthographicSize * mainCamera.aspect;
-        _xLeft = mainCamera.transform.position.x - screenHalfWidth - 0.5f;
-        _xRight = mainCamera.transform.position.x + screenHalfWidth - 0.5f;
-    }
-
     private void Start()
     {
+        mainCamera = Camera.main;
+        UpdateScreenBounds();
         InvokeRepeating(nameof(Fall), _ballSpawnTime, _ballSpawnTime);
         StartCoroutine(DecreaseSpawnTime());
+    }
+
+    private void Update()
+    {
+        UpdateScreenBounds();
     }
 
     private void Fall()
@@ -34,6 +35,26 @@ public class FallingObject : MonoBehaviour
 
         BallFalling ballFalling = newFallingObject.GetComponent<BallFalling>();
         ballFalling?.SetBounds(_xLeft, _xRight);
+    }
+
+    public void ResetTargetPoints()
+    {
+        UpdateScreenBounds();
+    }
+
+    private void UpdateScreenBounds()
+    {
+        if (mainCamera == null)
+        {
+            mainCamera = Camera.main;
+        }
+
+        if (mainCamera != null)
+        {
+            screenHalfWidth = mainCamera.orthographicSize * mainCamera.aspect;
+            _xLeft = mainCamera.transform.position.x - screenHalfWidth - 0.05f;
+            _xRight = mainCamera.transform.position.x + screenHalfWidth - 0.05f;
+        }
     }
 
     private IEnumerator DecreaseSpawnTime()

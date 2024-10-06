@@ -1490,14 +1490,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.49974033, y: 9.204132}
+    - - {x: 0.49986574, y: 0.52806616}
       - {x: 0.4956178, y: 0.5293627}
       - {x: -0.49587327, y: 0.5286455}
-      - {x: -0.49973628, y: 9.202532}
-      - {x: -0.5, y: 0.5}
+      - {x: -0.49984252, y: 0.5327306}
+      - {x: -0.502389, y: 2.2201068}
       - {x: -0.5, y: -0.5}
       - {x: 0.5, y: -0.5}
-      - {x: 0.5, y: 0.5}
+      - {x: 0.5001254, y: 2.1853437}
   m_UseDelaunayMesh: 0
 --- !u!50 &786270582
 Rigidbody2D:
@@ -1538,6 +1538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2e6a68f13bce46c0902d60d4f164dc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fallingObject: {fileID: 1721585131}
 --- !u!1 &791909800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1606,8 +1607,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 90, y: -80}
-  m_SizeDelta: {x: 90, y: 90}
+  m_AnchoredPosition: {x: 75, y: -75}
+  m_SizeDelta: {x: 75, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1089584568
 MonoBehaviour:
@@ -2324,9 +2325,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _fallingObject: {fileID: 5522800464319791937, guid: a07cd03d407784e3d91a6a865aaa6fa6, type: 3}
   _ballSpawnTime: 1
-  _minBallSpawnTime: 0.1
-  _spawnTimeDecreaseRate: 0.1
-  _spawnTimeDecreaseInterval: 3
+  _minBallSpawnTime: 0.6
+  _spawnTimeDecreaseRate: 0.3
+  _spawnTimeDecreaseInterval: 5
 --- !u!1 &1856772424
 GameObject:
   m_ObjectHideFlags: 0
