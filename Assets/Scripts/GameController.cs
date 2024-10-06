@@ -55,18 +55,21 @@ public class GameController : MonoBehaviour
         videoPlayer.renderMode = VideoRenderMode.RenderTexture;
         videoPlayer.isLooping = false; // Do not loop the video
         videoPlayer.Stop(); // Stop the video initially
-        videoPlayer.loopPointReached += OnVideoEnded; // Subscribe to the loopPointReached event
         videoPlayer.Prepare();
 
+        // Get the size of the _videoFrame
+        RectTransform rectTransform = _videoFrame.GetComponent<RectTransform>();
+        int renderTextureWidth = (int)rectTransform.rect.width;
+        int renderTextureHeight = (int)rectTransform.rect.height;
+
         // Create a RenderTexture and assign it to the VideoPlayer
-        renderTexture = new RenderTexture(Screen.width / 2, Screen.height / 2, 0);
+        renderTexture = new RenderTexture(renderTextureWidth, renderTextureHeight, 0);
         videoPlayer.targetTexture = renderTexture;
 
         // Assign the RenderTexture to the RawImage
         _videoFrame.texture = renderTexture;
 
         // Set the RawImage RectTransform size to match the RenderTexture
-        RectTransform rectTransform = _videoFrame.GetComponent<RectTransform>();
         rectTransform.sizeDelta = new Vector2(renderTexture.width, renderTexture.height);
     }
 
@@ -86,13 +89,17 @@ public class GameController : MonoBehaviour
         _scoreText.gameObject.SetActive(false);
         _menuButton.gameObject.SetActive(false);
         _panel.gameObject.SetActive(true);
+
+        // Play the video when the player dies
+        var playback = StartCoroutine(PlayVideoAndPause());
+    }
+
+    private void ShowEndMenu()
+    {
         _restartButton.gameObject.SetActive(true);
         _totalScoreText.gameObject.SetActive(true);
         int score = Mathf.FloorToInt(Time.timeSinceLevelLoad);
         _totalScoreText.text = "Your total score: " + score;
-
-        // Play the video when the player dies
-        var playback = StartCoroutine(PlayVideoAndPause());
     }
 
     private IEnumerator PlayVideoAndPause()
@@ -104,6 +111,8 @@ public class GameController : MonoBehaviour
         videoPlayer.enabled = true; // Enable the VideoPlayer
         videoPlayer.Play();
         Debug.Log("Starting video playback...");
+        
+        videoPlayer.loopPointReached += OnVideoEnded; // Subscribe to the loopPointReached event
 
         yield return new WaitForSeconds((float)videoPlayer.clip.length); // Wait for the video to finish playing
     }
@@ -114,6 +123,9 @@ public class GameController : MonoBehaviour
         Debug.Log("Video playback ended.");
         _videoFrame.gameObject.SetActive(false); // Hide the RawImage
         videoPlayer.Stop(); // Stop the VideoPlayer
+        ShowEndMenu();
+        // Unsubscribe from the loopPointReached event to prevent it from being called again
+        videoPlayer.loopPointReached -= OnVideoEnded;
     }
 
     public void RestartGameClicked()

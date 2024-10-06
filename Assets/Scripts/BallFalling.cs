@@ -1,12 +1,11 @@
+// Assets/Scripts/BallFalling.cs
 using UnityEngine;
 
 public class BallFalling : MonoBehaviour
 {
-    [SerializeField] private bool _isAbility;  // Flag to determine if this ball has an ability
-
-    private float targetX;  // Target x-axis position
-    private float fallSpeed = 5f;  // Speed of falling
-    private float moveSpeed = 2f;  // Speed of moving towards the target x position
+    private float targetX;
+    private float fallSpeed = 5f;
+    private float moveSpeed = 2f;
 
     public void SetBounds(float xLeft, float xRight)
     {
@@ -21,8 +20,6 @@ public class BallFalling : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("OnCollisionEnter2D triggered with: " + collision.gameObject.name);
-
         if (collision.gameObject.GetComponent<BallFalling>())
             return;
 

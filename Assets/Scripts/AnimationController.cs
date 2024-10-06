@@ -1,3 +1,4 @@
+// Assets/Scripts/AnimationController.cs
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -27,7 +28,7 @@ public class AnimationController : MonoBehaviour
 
     private void SetXVelocity(float xVelocity)
     {
-        if (xVelocity >= 0)
+        if (xVelocity > 0)
         {
             _animator.SetFloat("xVelocity", xVelocity / 2);
             AnimateRunning();

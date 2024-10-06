@@ -1,8 +1,7 @@
-using System;
+// Assets/Scripts/PlayerController.cs
 using UnityEngine;
 using UnityEngine.Events;
 
-[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private AnimationController _animationController;
@@ -30,9 +29,16 @@ public class PlayerController : MonoBehaviour
     {
         if (_isDragging)
         {
-            Vector2 touchPosition = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
-            rigidbody2D.velocity = new Vector2((touchPosition.x - transform.position.x) * _moveSpeed, rigidbody2D.velocity.y);
-            _animationController.OnSetXVelocity?.Invoke(Math.Abs(rigidbody2D.velocity.x));
+            Vector2 targetPosition = Vector2.zero;
+
+            if (Input.touchCount > 0)
+            {
+                targetPosition = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
+            }
+
+            targetPosition = ClampToScreenBounds(targetPosition);
+            rigidbody2D.velocity = new Vector2((targetPosition.x - transform.position.x) * _moveSpeed, rigidbody2D.velocity.y);
+            _animationController.OnSetXVelocity?.Invoke(Mathf.Abs(rigidbody2D.velocity.x));
         }
         else
         {
@@ -42,7 +48,7 @@ public class PlayerController : MonoBehaviour
 
     private void FlipSprite()
     {
-        if (_isFacingRight && rigidbody2D.velocity.x < 0f || !_isFacingRight && rigidbody2D.velocity.x > 0f)
+        if ((_isFacingRight && rigidbody2D.velocity.x < 0f) || (!_isFacingRight && rigidbody2D.velocity.x > 0f))
         {
             _isFacingRight = !_isFacingRight;
             _animationController.OnFlipSprite?.Invoke(_isFacingRight);
@@ -65,28 +71,25 @@ public class PlayerController : MonoBehaviour
             Touch touch = Input.GetTouch(0);
             Vector2 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
 
-            switch (touch.phase)
+            if (touch.phase == TouchPhase.Began && GetComponent<Collider2D>() == Physics2D.OverlapPoint(touchPosition))
             {
-                case TouchPhase.Began:
-                    if (GetComponent<Collider2D>() == Physics2D.OverlapPoint(touchPosition))
-                    {
-                        _isDragging = true;
-                    }
-                    break;
-
-                case TouchPhase.Moved:
-                case TouchPhase.Stationary:
-                    if (_isDragging)
-                    {
-                        transform.position = new Vector2(touchPosition.x, transform.position.y);
-                    }
-                    break;
-
-                case TouchPhase.Ended:
-                case TouchPhase.Canceled:
-                    _isDragging = false;
-                    break;
+                _isDragging = true;
+            }
+            else if ((touch.phase == TouchPhase.Moved || touch.phase == TouchPhase.Stationary) && _isDragging)
+            {
+                transform.position = new Vector2(touchPosition.x, transform.position.y);
+            }
+            else if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
+            {
+                _isDragging = false;
             }
         }
+    }
+
+    private Vector2 ClampToScreenBounds(Vector2 position)
+    {
+        Vector3 screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
+        position.x = Mathf.Clamp(position.x, -screenBounds.x, screenBounds.x);
+        return position;
     }
 }
