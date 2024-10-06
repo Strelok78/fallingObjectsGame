@@ -26,11 +26,6 @@ public class BallFalling : MonoBehaviour
         if (collision.gameObject.GetComponent<BallFalling>())
             return;
 
-        var bubbleAbility = collision.gameObject.GetComponent<BubbleAbility>();
-
-        if (_isAbility && bubbleAbility != null)
-            bubbleAbility.ActivateAbility();
-
         Destroy(gameObject);
     }
 }

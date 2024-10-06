@@ -27,17 +27,5 @@ public class GameManager : MonoBehaviour
 
         // Hide the Canvas
         startCanvas.SetActive(false);
-
-        // Here you can add additional logic to start the game
-        StartGame();
-    }
-
-    private void StartGame()
-    {
-        // Add your game start logic here
-        // Example: Enable player controls, start game timers, etc.
-
-        // Debug log to confirm that StartGame() is called
-        Debug.Log("Game has started.");
     }
 }

@@ -4,7 +4,6 @@ using UnityEngine.Events;
 public class AnimationController : MonoBehaviour
 {
     private Animator _animator;
-    private BubbleAbility _bubbleAbility;
 
     // UnityActions for controlling animations
     public UnityAction<float> OnSetXVelocity;
@@ -13,7 +12,6 @@ public class AnimationController : MonoBehaviour
     private void Awake()
     {
         _animator = GetComponent<Animator>();
-        _bubbleAbility = GetComponent<BubbleAbility>();
 
         // Subscribing UnityActions to their respective methods
         OnSetXVelocity += SetXVelocity;
@@ -29,21 +27,14 @@ public class AnimationController : MonoBehaviour
 
     private void SetXVelocity(float xVelocity)
     {
-        if (xVelocity <= 0)
-        {
-            if (_bubbleAbility.IsShielded)
-            {
-                AnimateShielded();
-            }
-            else
-            {
-                AnimateIdle();
-            }
-        }
-        else
+        if (xVelocity >= 0)
         {
             _animator.SetFloat("xVelocity", xVelocity / 2);
             AnimateRunning();
+        }
+        else
+        {
+            AnimateIdle();
         }
     }
 
@@ -62,15 +53,5 @@ public class AnimationController : MonoBehaviour
     private void AnimateRunning()
     {
         _animator.Play("Movement");
-    }
-
-    private void ShieldPicked()
-    {
-
-    }
-
-    private void AnimateShielded()
-    {
-        _animator.Play("");
     }
 }

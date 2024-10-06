@@ -3,6 +3,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.UI;
+using System.Collections;
+using UnityEngine.Video;
 
 public class GameController : MonoBehaviour
 {
@@ -15,8 +17,12 @@ public class GameController : MonoBehaviour
     [SerializeField] private Button _resumeButton;
     [SerializeField] private Button _exitButton;
     [SerializeField] private GameObject _panel;
+    [SerializeField] private VideoClip _gameEndVideo; // Reference to the video clip
+    [SerializeField] private RawImage _videoFrame; // Reference to the RawImage for displaying the video
 
     public Canvas GameMenuCanvas;
+    private VideoPlayer videoPlayer;
+    private RenderTexture renderTexture;
 
     private void Awake()
     {
@@ -36,9 +42,32 @@ public class GameController : MonoBehaviour
         _resumeButton.gameObject.SetActive(false);
         _exitButton.gameObject.SetActive(false);
         _totalScoreText.gameObject.SetActive(false);
+        _videoFrame.gameObject.SetActive(false); // Hide the RawImage initially
 
         // Pause the game initially
         Time.timeScale = 0;
+    }
+
+    private void Start()
+    {
+        videoPlayer = gameObject.AddComponent<VideoPlayer>();
+        videoPlayer.clip = _gameEndVideo;
+        videoPlayer.renderMode = VideoRenderMode.RenderTexture;
+        videoPlayer.isLooping = false; // Do not loop the video
+        videoPlayer.Stop(); // Stop the video initially
+        videoPlayer.loopPointReached += OnVideoEnded; // Subscribe to the loopPointReached event
+        videoPlayer.Prepare();
+
+        // Create a RenderTexture and assign it to the VideoPlayer
+        renderTexture = new RenderTexture(Screen.width / 2, Screen.height / 2, 0);
+        videoPlayer.targetTexture = renderTexture;
+
+        // Assign the RenderTexture to the RawImage
+        _videoFrame.texture = renderTexture;
+
+        // Set the RawImage RectTransform size to match the RenderTexture
+        RectTransform rectTransform = _videoFrame.GetComponent<RectTransform>();
+        rectTransform.sizeDelta = new Vector2(renderTexture.width, renderTexture.height);
     }
 
     private void Update()
@@ -61,6 +90,30 @@ public class GameController : MonoBehaviour
         _totalScoreText.gameObject.SetActive(true);
         int score = Mathf.FloorToInt(Time.timeSinceLevelLoad);
         _totalScoreText.text = "Your total score: " + score;
+
+        // Play the video when the player dies
+        var playback = StartCoroutine(PlayVideoAndPause());
+    }
+
+    private IEnumerator PlayVideoAndPause()
+    {
+        Debug.Log("Starting video playback coroutine...");
+        _videoFrame.gameObject.SetActive(true); // Show the RawImage
+        //yield return new WaitForEndOfFrame(); // Ensure the frame is rendered before playing the video
+
+        videoPlayer.enabled = true; // Enable the VideoPlayer
+        videoPlayer.Play();
+        Debug.Log("Starting video playback...");
+
+        yield return new WaitForSeconds((float)videoPlayer.clip.length); // Wait for the video to finish playing
+    }
+
+    private void OnVideoEnded(VideoPlayer vp)
+    {
+        StopCoroutine(PlayVideoAndPause());
+        Debug.Log("Video playback ended.");
+        _videoFrame.gameObject.SetActive(false); // Hide the RawImage
+        videoPlayer.Stop(); // Stop the VideoPlayer
     }
 
     public void RestartGameClicked()
@@ -90,6 +143,10 @@ public class GameController : MonoBehaviour
         Time.timeScale = 1f;
         _panel.gameObject.SetActive(false);
         ButtonVisibilityChange(false);
+
+        // Deactivate the video
+        _videoFrame.gameObject.SetActive(false);
+        videoPlayer.Stop();
     }
 
     public void OnExitClicked()

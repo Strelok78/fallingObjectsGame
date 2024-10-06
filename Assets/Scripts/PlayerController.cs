@@ -6,12 +6,11 @@ using UnityEngine.Events;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private AnimationController _animationController;
-    [SerializeField] private BubbleAbility _bubbleAbility;
 
     private float _moveSpeed = 10f;
     private bool _isFacingRight = true;
-    private Rigidbody2D rigidbody2D;
     private bool _isDragging = false;
+    private Rigidbody2D rigidbody2D;
 
     public event UnityAction PlayerDied;
 
@@ -19,7 +18,6 @@ public class PlayerController : MonoBehaviour
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         _animationController = GetComponent<AnimationController>();
-        _bubbleAbility = GetComponent<BubbleAbility>();
     }
 
     private void Update()
@@ -53,14 +51,10 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Object") && !_bubbleAbility.IsShielded)
+        if (collision.gameObject.CompareTag("Object"))
         {
             Destroy(gameObject);
             PlayerDied?.Invoke();
-        }
-        else if (collision.gameObject.CompareTag("Object") && _bubbleAbility.IsShielded)
-        {
-            _bubbleAbility.DeactivateAbility();
         }
     }
 

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6672794100135844941}
   m_Layer: 6
   m_Name: fallingAbilityObject
-  m_TagString: Untagged
+  m_TagString: Ability
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
