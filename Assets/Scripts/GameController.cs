@@ -17,12 +17,8 @@ public class GameController : MonoBehaviour
     [SerializeField] private Button _resumeButton;
     [SerializeField] private Button _exitButton;
     [SerializeField] private GameObject _panel;
-    [SerializeField] private VideoClip _gameEndVideo; // Reference to the video clip
-    [SerializeField] private RawImage _videoFrame; // Reference to the RawImage for displaying the video
 
     public Canvas GameMenuCanvas;
-    private VideoPlayer videoPlayer;
-    private RenderTexture renderTexture;
 
     private void Awake()
     {
@@ -42,35 +38,14 @@ public class GameController : MonoBehaviour
         _resumeButton.gameObject.SetActive(false);
         _exitButton.gameObject.SetActive(false);
         _totalScoreText.gameObject.SetActive(false);
-        _videoFrame.gameObject.SetActive(false); // Hide the RawImage initially
 
         // Pause the game initially
-        Time.timeScale = 0;
+        PauseGame(true);
     }
 
-    private void Start()
+    private void PauseGame (bool pause)
     {
-        videoPlayer = gameObject.AddComponent<VideoPlayer>();
-        videoPlayer.clip = _gameEndVideo;
-        videoPlayer.renderMode = VideoRenderMode.RenderTexture;
-        videoPlayer.isLooping = false; // Do not loop the video
-        videoPlayer.Stop(); // Stop the video initially
-        videoPlayer.Prepare();
-
-        // Get the size of the _videoFrame
-        RectTransform rectTransform = _videoFrame.GetComponent<RectTransform>();
-        int renderTextureWidth = (int)rectTransform.rect.width;
-        int renderTextureHeight = (int)rectTransform.rect.height;
-
-        // Create a RenderTexture and assign it to the VideoPlayer
-        renderTexture = new RenderTexture(renderTextureWidth, renderTextureHeight, 0);
-        videoPlayer.targetTexture = renderTexture;
-
-        // Assign the RenderTexture to the RawImage
-        _videoFrame.texture = renderTexture;
-
-        // Set the RawImage RectTransform size to match the RenderTexture
-        rectTransform.sizeDelta = new Vector2(renderTexture.width, renderTexture.height);
+        Time.timeScale += pause ? 0 : 1;
     }
 
     private void Update()
@@ -85,85 +60,50 @@ public class GameController : MonoBehaviour
             _playerController.PlayerDied -= OnPlayerDie;
         }
 
-        Time.timeScale = 0;
+        PauseGame(true);
+
         _scoreText.gameObject.SetActive(false);
         _menuButton.gameObject.SetActive(false);
         _panel.gameObject.SetActive(true);
-
-        // Play the video when the player dies
-        var playback = StartCoroutine(PlayVideoAndPause());
-    }
-
-    private void ShowEndMenu()
-    {
         _restartButton.gameObject.SetActive(true);
         _totalScoreText.gameObject.SetActive(true);
         int score = Mathf.FloorToInt(Time.timeSinceLevelLoad);
         _totalScoreText.text = "Your total score: " + score;
     }
 
-    private IEnumerator PlayVideoAndPause()
-    {
-        Debug.Log("Starting video playback coroutine...");
-        _videoFrame.gameObject.SetActive(true); // Show the RawImage
-        //yield return new WaitForEndOfFrame(); // Ensure the frame is rendered before playing the video
-
-        videoPlayer.enabled = true; // Enable the VideoPlayer
-        videoPlayer.Play();
-        Debug.Log("Starting video playback...");
-        
-        videoPlayer.loopPointReached += OnVideoEnded; // Subscribe to the loopPointReached event
-
-        yield return new WaitForSeconds((float)videoPlayer.clip.length); // Wait for the video to finish playing
-    }
-
-    private void OnVideoEnded(VideoPlayer vp)
-    {
-        StopCoroutine(PlayVideoAndPause());
-        Debug.Log("Video playback ended.");
-        _videoFrame.gameObject.SetActive(false); // Hide the RawImage
-        videoPlayer.Stop(); // Stop the VideoPlayer
-        ShowEndMenu();
-        // Unsubscribe from the loopPointReached event to prevent it from being called again
-        videoPlayer.loopPointReached -= OnVideoEnded;
-    }
-
     public void RestartGameClicked()
     {
-        Time.timeScale = 0;
+        PauseGame(true);
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void StartGameClicked()
     {
-        Debug.Log("Start is pressed");
         _startButton.gameObject.SetActive(false); // Hide the StartButton
         _panel.gameObject.SetActive(false);
         _menuButton.gameObject.SetActive(true);
-        Time.timeScale = 1; // Resume the game
+
+        PauseGame(false);
     }
 
     public void OnMenuClicked()
     {
-        Time.timeScale = 0;
+        PauseGame(true);
         _panel.gameObject.SetActive(true);
         ButtonVisibilityChange(true);
     }
 
     public void OnResumeClicked()
     {
-        Time.timeScale = 1f;
+        PauseGame(false);
         _panel.gameObject.SetActive(false);
         ButtonVisibilityChange(false);
-
-        // Deactivate the video
-        _videoFrame.gameObject.SetActive(false);
-        videoPlayer.Stop();
     }
 
     public void OnExitClicked()
     {
-        Time.timeScale = 0f;
+        PauseGame(true);
         Application.Quit();
     }
 
