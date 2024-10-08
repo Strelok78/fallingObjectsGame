@@ -23,6 +23,7 @@ public class BallFalling : MonoBehaviour
         if (collision.gameObject.GetComponent<BallFalling>())
             return;
 
+        Debug.Log(collision.gameObject.name + " collided with " + gameObject.name);
         Destroy(gameObject);
     }
 }

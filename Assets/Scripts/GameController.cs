@@ -45,7 +45,7 @@ public class GameController : MonoBehaviour
 
     private void PauseGame (bool pause)
     {
-        Time.timeScale += pause ? 0 : 1;
+        Time.timeScale = pause ? 0 : 1;
     }
 
     private void Update()
