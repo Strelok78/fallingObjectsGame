@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.Serialization;
 using UnityEngine.Video;
 
 public class GameController : MonoBehaviour
@@ -17,9 +18,11 @@ public class GameController : MonoBehaviour
     [SerializeField] private Button _resumeButton;
     [SerializeField] private Button _exitButton;
     [SerializeField] private Button _shootButton;
+    [SerializeField] private Canvas _gameMenuCanvas;
     [SerializeField] private GameObject _panel;
 
-    public Canvas GameMenuCanvas;
+    private bool _isWaiting = false;
+    private float _delayTimer = 0f;
 
     private void Awake()
     {
@@ -28,7 +31,7 @@ public class GameController : MonoBehaviour
             _playerController.PlayerDied += OnPlayerDie;
         }
 
-        GameMenuCanvas.gameObject.SetActive(true);
+        _gameMenuCanvas.gameObject.SetActive(true);
         _startButton.gameObject.SetActive(true);
         _scoreText.gameObject.SetActive(true);
         _panel.gameObject.SetActive(true);
@@ -39,17 +42,34 @@ public class GameController : MonoBehaviour
         _exitButton.gameObject.SetActive(false);
         _totalScoreText.gameObject.SetActive(false);
 
-        PauseGame(true);
+        PauseGame();
     }
 
-    private void PauseGame (bool pause)
+    private void PauseGame (bool pause = true, bool isDead = false)
     {
+        if (isDead)
+        {
+            _isWaiting = true;
+            _delayTimer = 2f;
+            return;
+        }
+        
         Time.timeScale = pause ? 0 : 1;
     }
 
     private void Update()
     {
         _scoreText.text = Mathf.FloorToInt(Time.timeSinceLevelLoad).ToString();
+        
+        if (_isWaiting)
+        {
+            _delayTimer -= Time.deltaTime;
+            if (_delayTimer <= 0f)
+            {
+                Time.timeScale = 0;
+                _isWaiting = false; 
+            }
+        }
     }
 
     private void OnPlayerDie()
@@ -59,7 +79,7 @@ public class GameController : MonoBehaviour
             _playerController.PlayerDied -= OnPlayerDie;
         }
 
-        PauseGame(true);
+        PauseGame(true, true);
 
         _scoreText.gameObject.SetActive(false);
         _menuButton.gameObject.SetActive(false);
@@ -73,7 +93,7 @@ public class GameController : MonoBehaviour
 
     public void RestartGameClicked()
     {
-        PauseGame(true);
+        PauseGame();
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
@@ -90,7 +110,7 @@ public class GameController : MonoBehaviour
 
     public void OnMenuClicked()
     {
-        PauseGame(true);
+        PauseGame();
         _panel.gameObject.SetActive(true);
         ButtonVisibilityChange(true);
     }
@@ -104,7 +124,7 @@ public class GameController : MonoBehaviour
 
     public void OnExitClicked()
     {
-        PauseGame(true);
+        PauseGame();
         Application.Quit();
     }
 

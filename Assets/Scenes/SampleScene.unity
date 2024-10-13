@@ -535,7 +535,7 @@ GameObject:
   - component: {fileID: 447170429}
   - component: {fileID: 447170428}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: ResumeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -761,7 +761,7 @@ GameObject:
   - component: {fileID: 578601424}
   - component: {fileID: 578601423}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: RestartText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1103,7 +1103,7 @@ GameObject:
   - component: {fileID: 706601317}
   - component: {fileID: 706601316}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: MenuText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1404,7 +1404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2e6a68f13bce46c0902d60d4f164dc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallingObject: {fileID: 1721585131}
+  _objectPool: {fileID: 1721585131}
 --- !u!1 &791909800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1570,11 +1570,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910493732}
   m_CullTransparentMesh: 1
---- !u!1 &1074299909 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 269186493653374571, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
-  m_PrefabInstance: {fileID: 4550884437077925367}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1089584566
 GameObject:
   m_ObjectHideFlags: 0
@@ -1805,13 +1800,13 @@ RectTransform:
   m_Children:
   - {fileID: 693957467}
   - {fileID: 1537506501}
+  - {fileID: 283243814}
+  - {fileID: 1677206968}
   - {fileID: 195803672}
   - {fileID: 1653862849}
   - {fileID: 1089584567}
   - {fileID: 57532282}
   - {fileID: 628892689}
-  - {fileID: 283243814}
-  - {fileID: 1677206968}
   - {fileID: 910493733}
   m_Father: {fileID: 1856772426}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2256,9 +2251,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _fallingObject: {fileID: 5522800464319791937, guid: a07cd03d407784e3d91a6a865aaa6fa6, type: 3}
   _ballSpawnTime: 1
-  _minBallSpawnTime: 0.6
-  _spawnTimeDecreaseRate: 0.3
-  _spawnTimeDecreaseInterval: 5
+  _minBallSpawnTime: 0.2
+  _spawnTimeDecreaseRate: 0.1
+  _spawnTimeDecreaseInterval: 7
 --- !u!1 &1820842239
 GameObject:
   m_ObjectHideFlags: 0
@@ -2271,7 +2266,7 @@ GameObject:
   - component: {fileID: 1820842242}
   - component: {fileID: 1820842241}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: CLicksLeftText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2432,7 +2427,7 @@ MonoBehaviour:
   _exitButton: {fileID: 628892690}
   _shootButton: {fileID: 910493734}
   _panel: {fileID: 693957466}
-  GameMenuCanvas: {fileID: 1172008922}
+  _gameMenuCanvas: {fileID: 1172008922}
 --- !u!4 &1856772426
 Transform:
   m_ObjectHideFlags: 0
@@ -2461,7 +2456,7 @@ GameObject:
   - component: {fileID: 1965291788}
   - component: {fileID: 1965291787}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: ExitText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2729,6 +2724,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 472855274057715981, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
+      propertyPath: _mainCamera
+      value: 
+      objectReference: {fileID: 519420031}
+    - target: {fileID: 472855274057715981, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
+      propertyPath: _abilityButton
+      value: 
+      objectReference: {fileID: 910493734}
+    - target: {fileID: 472855274057715981, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
+      propertyPath: _clicksLeftText
+      value: 
+      objectReference: {fileID: 1820842241}
     - target: {fileID: 1461334581326581461, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2769,49 +2776,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2088939475948927861, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
-      propertyPath: waveRadius
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 2088939475948927861, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
-      propertyPath: _bubbleAbility
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2088939475948927861, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
-      propertyPath: _spriteRenderer
-      value: 
-      objectReference: {fileID: 4550884437077925382}
-    - target: {fileID: 2088939475948927861, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
-      propertyPath: _animationController
-      value: 
-      objectReference: {fileID: 4550884437077925378}
-    - target: {fileID: 3172281821114149487, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
-      propertyPath: _ballFalling
-      value: 
-      objectReference: {fileID: 6672794100135844941, guid: 4d7526db7851043b981c94bfee910d6a, type: 3}
-    - target: {fileID: 3172281821114149487, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
-      propertyPath: _bubbleAnimator
-      value: 
-      objectReference: {fileID: 3199114439752451939, guid: 8b3f426d694b64792bc41fc178035ef2, type: 3}
-    - target: {fileID: 3172281821114149487, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
-      propertyPath: _abilityBaseTimer
-      value: 2
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3172281821114149487, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 269186493653374571, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4550884437077925383}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
 --- !u!114 &4550884437077925368 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2088939475948927861, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
   m_PrefabInstance: {fileID: 4550884437077925367}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1074299909}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3fe0581b0bf24122875aeb50ae7a257, type: 3}
@@ -2822,42 +2797,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1461334581326581461, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
   m_PrefabInstance: {fileID: 4550884437077925367}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4550884437077925378 stripped
+--- !u!114 &4550884437077925383 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4685965444390243624, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
+  m_CorrespondingSourceObject: {fileID: 472855274057715981, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
   m_PrefabInstance: {fileID: 4550884437077925367}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1074299909}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb485b60e8e7149ab8455e599ed23377, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!212 &4550884437077925382 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 5230893087901639547, guid: bf4bf7337dc9441da905e25fc10c326d, type: 3}
-  m_PrefabInstance: {fileID: 4550884437077925367}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4550884437077925383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1074299909}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 22df45f557f324640bdaabb215c9d597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 2430491993167076220, guid: 4d7526db7851043b981c94bfee910d6a, type: 3}
-  projectileSpeed: 8
-  playerController: {fileID: 4550884437077925368}
-  abilityButton: {fileID: 910493734}
-  clicksLeftText: {fileID: 1820842241}
-  _mainCamera: {fileID: 519420031}
-  maxClicks: 3
-  resetTime: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

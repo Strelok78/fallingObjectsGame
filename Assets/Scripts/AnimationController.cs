@@ -1,27 +1,26 @@
-// Assets/Scripts/AnimationController.cs
 using UnityEngine;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(CapsuleCollider2D))]
 public class AnimationController : MonoBehaviour
 {
     private Animator _animator;
+    private CapsuleCollider2D _collider;
 
-    // UnityActions for controlling animations
     public UnityAction<float> OnSetXVelocity;
     public UnityAction<bool> OnFlipSprite;
-
+    
     private void Awake()
     {
         _animator = GetComponent<Animator>();
-
-        // Subscribing UnityActions to their respective methods
+        _collider = GetComponent<CapsuleCollider2D>();
         OnSetXVelocity += SetXVelocity;
         OnFlipSprite += FlipSprite;
     }
 
     private void OnDestroy()
     {
-        // Unsubscribing UnityActions to avoid memory leaks
         OnSetXVelocity -= SetXVelocity;
         OnFlipSprite -= FlipSprite;
     }
@@ -54,5 +53,25 @@ public class AnimationController : MonoBehaviour
     private void AnimateRunning()
     {
         _animator.Play("Movement");
+    }
+    
+    public void AnimateShooting()
+    {
+        _animator.Play("Shoot");
+    }
+
+    public void AnimateDeath()
+    {
+        _animator.Play("Death");
+    }
+
+    public void SwitchColliderSize()
+    {
+        _collider.size = new Vector2(_collider.size.x, 0.6f);
+    }
+
+    public void StopAnimations()
+    {
+        _animator.speed = 0;
     }
 }

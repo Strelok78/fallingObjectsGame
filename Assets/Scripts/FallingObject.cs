@@ -1,4 +1,3 @@
-// Assets/Scripts/FallingObject.cs
 using System.Collections;
 using UnityEngine;
 
@@ -10,14 +9,14 @@ public class FallingObject : MonoBehaviour
     [SerializeField] private float _spawnTimeDecreaseRate = 0.1f;
     [SerializeField] private float _spawnTimeDecreaseInterval = 10f;
 
-    private Camera mainCamera;
-    private float screenHalfWidth;
+    private Camera _mainCamera;
+    private float _screenHalfWidth;
     private float _xLeft;
     private float _xRight;
 
     private void Start()
     {
-        mainCamera = Camera.main;
+        _mainCamera = Camera.main;
         UpdateScreenBounds();
         InvokeRepeating(nameof(Fall), _ballSpawnTime, _ballSpawnTime);
         StartCoroutine(DecreaseSpawnTime());
@@ -44,16 +43,16 @@ public class FallingObject : MonoBehaviour
 
     private void UpdateScreenBounds()
     {
-        if (mainCamera == null)
+        if (_mainCamera == null)
         {
-            mainCamera = Camera.main;
+            _mainCamera = Camera.main;
         }
 
-        if (mainCamera != null)
+        if (_mainCamera != null)
         {
-            screenHalfWidth = mainCamera.orthographicSize * mainCamera.aspect;
-            _xLeft = mainCamera.transform.position.x - screenHalfWidth - 0.05f;
-            _xRight = mainCamera.transform.position.x + screenHalfWidth - 0.05f;
+            _screenHalfWidth = _mainCamera.orthographicSize * _mainCamera.aspect;
+            _xLeft = _mainCamera.transform.position.x - _screenHalfWidth - 0.05f;
+            _xRight = _mainCamera.transform.position.x + _screenHalfWidth - 0.05f;
         }
     }
 
