@@ -7,20 +7,25 @@ public class AbilityBall : MonoBehaviour
 {
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private float projectileSpeed = 5f;
-    [SerializeField] private PlayerController playerController; // Reference to the PlayerController
-    [SerializeField] private Button abilityButton; // Reference to the button
-    [SerializeField] private TextMeshProUGUI clicksLeftText; // Reference to the text displaying clicks left
-    [SerializeField] private int maxClicks = 3; // Maximum number of clicks
-    [SerializeField] private float resetTime = 5f; // Time to reset the button
+    [SerializeField] private PlayerController playerController;
+    [SerializeField] private Button abilityButton;
+    [SerializeField] private TextMeshProUGUI clicksLeftText;
+    [SerializeField] private Camera _mainCamera;
+    [SerializeField] private int maxClicks = 3;
+    [SerializeField] private float resetTime = 5f;
 
-    private Camera mainCamera;
     private int clicksLeft;
+    private CanvasGroup abilityButtonCanvasGroup;
 
-    private void Start()
+    private void Awake()
     {
-        mainCamera = Camera.main;
         clicksLeft = maxClicks;
         UpdateClicksLeftText();
+        abilityButtonCanvasGroup = abilityButton.GetComponent<CanvasGroup>();
+        if (abilityButtonCanvasGroup == null)
+        {
+            abilityButtonCanvasGroup = abilityButton.gameObject.AddComponent<CanvasGroup>();
+        }
     }
 
     public void OnButtonPressed()
@@ -30,11 +35,17 @@ public class AbilityBall : MonoBehaviour
             clicksLeft--;
             UpdateClicksLeftText();
 
-            Vector3 playerPosition = transform.position; // Use the player's position
-            GameObject projectile = Instantiate(projectilePrefab, playerPosition, Quaternion.identity);
+            // Calculate the top position of the player's sprite
+            Vector3 playerPosition = transform.position;
+            SpriteRenderer playerSpriteRenderer = playerController.GetComponent<SpriteRenderer>();
+            float playerSpriteHeight = playerSpriteRenderer.bounds.size.y;
+            Vector3 projectilePosition = playerPosition + new Vector3(0, playerSpriteHeight / 2, 0);
 
-            // Ensure the projectile has a Rigidbody2D and set it to kinematic
+            GameObject projectile = Instantiate(projectilePrefab, projectilePosition, Quaternion.identity);
+            projectile.GetComponent<ProjectileMover>().InitializeScript(projectileSpeed, _mainCamera);
+
             Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
+
             if (rb == null)
             {
                 rb = projectile.AddComponent<Rigidbody2D>();
@@ -49,9 +60,6 @@ public class AbilityBall : MonoBehaviour
                 Physics2D.IgnoreCollision(playerCollider, projectileCollider);
             }
 
-            // Add ProjectileMover component to handle movement
-            projectile.AddComponent<ProjectileMover>().Initialize(projectileSpeed, mainCamera);
-
             if (clicksLeft == 0)
             {
                 StartCoroutine(ResetButton());
@@ -61,11 +69,20 @@ public class AbilityBall : MonoBehaviour
 
     private IEnumerator ResetButton()
     {
-        abilityButton.gameObject.SetActive(false);
-        yield return new WaitForSeconds(resetTime);
+        abilityButton.gameObject.SetActive(true);
+        abilityButtonCanvasGroup.alpha = 0.5f; // Partly visible
+        float elapsedTime = 0f;
+
+        while (elapsedTime < resetTime)
+        {
+            elapsedTime += Time.deltaTime;
+            abilityButtonCanvasGroup.alpha = Mathf.Lerp(0.5f, 1f, elapsedTime / resetTime);
+            yield return null;
+        }
+
         clicksLeft = maxClicks;
         UpdateClicksLeftText();
-        abilityButton.gameObject.SetActive(true);
+        abilityButtonCanvasGroup.alpha = 1f; // Fully visible
     }
 
     private void UpdateClicksLeftText()

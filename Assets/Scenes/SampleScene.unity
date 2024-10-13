@@ -1473,8 +1473,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -127, y: -262}
-  m_SizeDelta: {x: 160, y: 160}
+  m_AnchoredPosition: {x: -127, y: -150}
+  m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &910493734
 MonoBehaviour:
@@ -2430,6 +2430,7 @@ MonoBehaviour:
   _menuButton: {fileID: 1089584568}
   _resumeButton: {fileID: 57532283}
   _exitButton: {fileID: 628892690}
+  _shootButton: {fileID: 910493734}
   _panel: {fileID: 693957466}
   GameMenuCanvas: {fileID: 1172008922}
 --- !u!4 &1856772426
@@ -2850,10 +2851,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 2430491993167076220, guid: 4d7526db7851043b981c94bfee910d6a, type: 3}
-  projectileSpeed: 5
+  projectileSpeed: 8
   playerController: {fileID: 4550884437077925368}
   abilityButton: {fileID: 910493734}
   clicksLeftText: {fileID: 1820842241}
+  _mainCamera: {fileID: 519420031}
   maxClicks: 3
   resetTime: 5
 --- !u!1660057539 &9223372036854775807
