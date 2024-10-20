@@ -1,21 +1,20 @@
-// Assets/Scripts/BallFalling.cs
 using UnityEngine;
 
 public class BallFalling : MonoBehaviour
 {
-    private float targetX;
-    private float fallSpeed = 5f;
-    private float moveSpeed = 2f;
+    private float _targetX;
+    private float _fallSpeed = 5f;
+    private float _moveSpeed = 2f;
 
     public void SetBounds(float xLeft, float xRight)
     {
-        targetX = Random.Range(xLeft, xRight);
+        _targetX = Random.Range(xLeft, xRight);
     }
 
     private void Update()
     {
-        float newX = Mathf.MoveTowards(transform.position.x, targetX, moveSpeed * Time.deltaTime);
-        transform.position = new Vector3(newX, transform.position.y - fallSpeed * Time.deltaTime, transform.position.z);
+        float newX = Mathf.MoveTowards(transform.position.x, _targetX, _moveSpeed * Time.deltaTime);
+        transform.position = new Vector3(newX, transform.position.y - _fallSpeed * Time.deltaTime, transform.position.z);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -23,7 +22,6 @@ public class BallFalling : MonoBehaviour
         if (collision.gameObject.GetComponent<BallFalling>())
             return;
 
-        Debug.Log(collision.gameObject.name + " collided with " + gameObject.name);
         Destroy(gameObject);
     }
 }

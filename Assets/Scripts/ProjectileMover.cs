@@ -1,19 +1,20 @@
+using System;
 using UnityEngine;
 
 public class ProjectileMover : MonoBehaviour
 {
-    private float projectileSpeed;
-    private Camera mainCamera;
+    private float _projectileSpeed;
+    private Camera _mainCamera;
 
-    public void Initialize(float speed, Camera camera)
+    public void InitializeScript(float speed, Camera camera)
     {
-        projectileSpeed = speed;
-        mainCamera = camera;
+        _projectileSpeed = speed;
+        _mainCamera = camera ?? Camera.main;
     }
 
     private void Update()
     {
-        transform.Translate(Vector3.up * projectileSpeed * Time.deltaTime, Space.World);
+        transform.Translate(Vector3.up * _projectileSpeed * Time.deltaTime, Space.World);
 
         if (IsOutOfView())
         {
@@ -23,7 +24,15 @@ public class ProjectileMover : MonoBehaviour
 
     private bool IsOutOfView()
     {
-        Vector3 screenPoint = mainCamera.WorldToViewportPoint(transform.position);
+        Vector3 screenPoint = _mainCamera.WorldToViewportPoint(transform.position);
         return screenPoint.y > 1;
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (!other.gameObject.GetComponent<PlayerController>())
+        {
+            Destroy(gameObject);
+        }
     }
 }

@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 1461334581326581461}
   - component: {fileID: 5230893087901639547}
   - component: {fileID: 2531684852327152354}
-  - component: {fileID: 2150636027776999538}
-  - component: {fileID: 2088939475948927861}
+  - component: {fileID: 1117691732056308740}
   - component: {fileID: 8158947547693447919}
+  - component: {fileID: 2088939475948927861}
   - component: {fileID: 4685965444390243624}
-  - component: {fileID: 3172281821114149487}
+  - component: {fileID: 472855274057715981}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -117,8 +117,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!60 &2150636027776999538
-PolygonCollider2D:
+--- !u!70 &1117691732056308740
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -150,36 +150,8 @@ PolygonCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.8125, y: 1.65625}
-    newSize: {x: 0.16, y: 0.16}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.40625, y: 0.828125}
-      - {x: -0.40625, y: -0.828125}
-      - {x: 0.40625, y: -0.828125}
-      - {x: 0.40625, y: 0.828125}
-  m_UseDelaunayMesh: 0
---- !u!114 &2088939475948927861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 269186493653374571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3fe0581b0bf24122875aeb50ae7a257, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animationController: {fileID: 0}
-  _bubbleAbility: {fileID: 0}
+  m_Size: {x: 0.5, y: 1.6}
+  m_Direction: 0
 --- !u!95 &8158947547693447919
 Animator:
   serializedVersion: 5
@@ -201,6 +173,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2088939475948927861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269186493653374571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3fe0581b0bf24122875aeb50ae7a257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animationController: {fileID: 4685965444390243624}
 --- !u!114 &4685965444390243624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,7 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb485b60e8e7149ab8455e599ed23377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3172281821114149487
+--- !u!114 &472855274057715981
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -222,7 +207,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 269186493653374571}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e11c10b14ab04f469415ea3a0940225, type: 3}
+  m_Script: {fileID: 11500000, guid: 22df45f557f324640bdaabb215c9d597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bubblePrefab: {fileID: 3635231053806004218, guid: 8b3f426d694b64792bc41fc178035ef2, type: 3}
+  _mainCamera: {fileID: 0}
+  _abilityButton: {fileID: 0}
+  _projectilePrefab: {fileID: 2430491993167076220, guid: 4d7526db7851043b981c94bfee910d6a, type: 3}
+  _playerController: {fileID: 2088939475948927861}
+  _clicksLeftText: {fileID: 0}
+  _maxClicks: 3
+  _projectileSpeed: 7
+  _resetTime: 5
