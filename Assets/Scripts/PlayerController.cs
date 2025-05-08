@@ -39,18 +39,18 @@ public class PlayerController : MonoBehaviour
             }
 
             targetPosition = ClampToScreenBounds(targetPosition);
-            _rigidbody2D.velocity = new Vector2((targetPosition.x - transform.position.x) * _moveSpeed, _rigidbody2D.velocity.y);
-            _animationController.OnSetXVelocity?.Invoke(Mathf.Abs(_rigidbody2D.velocity.x));
+            _rigidbody2D.linearVelocity = new Vector2((targetPosition.x - transform.position.x) * _moveSpeed, _rigidbody2D.linearVelocity.y);
+            _animationController.OnSetXVelocity?.Invoke(Mathf.Abs(_rigidbody2D.linearVelocity.x));
         }
         else
         {
-            _rigidbody2D.velocity = new Vector2(0, _rigidbody2D.velocity.y);
+            _rigidbody2D.linearVelocity = new Vector2(0, _rigidbody2D.linearVelocity.y);
         }
     }
 
     private void FlipSprite()
     {
-        if ((_isFacingRight && _rigidbody2D.velocity.x < 0f) || (!_isFacingRight && _rigidbody2D.velocity.x > 0f))
+        if ((_isFacingRight && _rigidbody2D.linearVelocity.x < 0f) || (!_isFacingRight && _rigidbody2D.linearVelocity.x > 0f))
         {
             _isFacingRight = !_isFacingRight;
             _animationController.OnFlipSprite?.Invoke(_isFacingRight);
