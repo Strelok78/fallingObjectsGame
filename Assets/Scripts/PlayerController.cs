@@ -21,12 +21,20 @@ public class PlayerController : MonoBehaviour
         _animationController = GetComponent<AnimationController>();
     }
 
+    //updated
     private void Update()
     {
-        HandleTouchInput();
+        if (!_isDead)
+        {
+            HandleTouchInput();
+            HandleKeyboardInput();
+        }
+        
         FlipSprite();
     }
 
+
+    //updated
     private void FixedUpdate()
     {
         if (_isDragging && !_isDead)
@@ -42,11 +50,38 @@ public class PlayerController : MonoBehaviour
             _rigidbody2D.linearVelocity = new Vector2((targetPosition.x - transform.position.x) * _moveSpeed, _rigidbody2D.linearVelocity.y);
             _animationController.OnSetXVelocity?.Invoke(Mathf.Abs(_rigidbody2D.linearVelocity.x));
         }
+        else if (!_isDragging && !_isDead)
+        {
+            float horizontalInput = Input.GetAxisRaw("Horizontal");
+            Vector2 movement = new Vector2(horizontalInput * _moveSpeed, _rigidbody2D.linearVelocity.y);
+            _rigidbody2D.linearVelocity = movement;
+            
+            if (horizontalInput != 0)
+            {
+                _animationController.OnSetXVelocity?.Invoke(Mathf.Abs(_rigidbody2D.linearVelocity.x));
+            }
+            else
+            {
+                _animationController.OnSetXVelocity?.Invoke(0);
+            }
+        }
         else
         {
             _rigidbody2D.linearVelocity = new Vector2(0, _rigidbody2D.linearVelocity.y);
         }
     }
+
+    
+    //added
+    private void HandleKeyboardInput()
+    {
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) || 
+            Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+        {
+            _isDragging = false;
+        }
+    }
+
 
     private void FlipSprite()
     {
