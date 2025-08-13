@@ -1,0 +1,20 @@
+{
+    "asset": "e85d7c058a9be4be7b21069abbecd34b",
+    "fileName": "0198a3d5-0c1e-7094-ab45-2d7f8da96a9c.png",
+    "prompt": "Blond hair guy with shotgun and yellow t-shirt",
+    "negativePrompt": "",
+    "model": "b7750d5b-62a0-457a-b21e-82f4c2789df5",
+    "modelName": "Hyper Casual Mobile Characters",
+    "customSeed": -1,
+    "w3CTraceId": "8a1507e3d907f64d5e1d4fd417d2f022",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}

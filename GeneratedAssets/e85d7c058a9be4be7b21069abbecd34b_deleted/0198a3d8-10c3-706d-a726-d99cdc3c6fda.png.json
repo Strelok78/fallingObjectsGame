@@ -1,0 +1,20 @@
+{
+    "asset": "e85d7c058a9be4be7b21069abbecd34b",
+    "fileName": "0198a3d8-10c3-706d-a726-d99cdc3c6fda.png",
+    "prompt": "change weapon in hand to an usual gun",
+    "negativePrompt": "",
+    "model": "b7750d5b-62a0-457a-b21e-82f4c2789df5",
+    "modelName": "Hyper Casual Mobile Characters",
+    "customSeed": -1,
+    "w3CTraceId": "fa99c0520f52cc198209217569107672",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}

@@ -1,0 +1,11 @@
+{
+    "asset": "d61444f36c3ad4e78a4b3a91119bbe6c",
+    "fileName": "0198a3da-2ec9-7c02-9e99-1c0274bd0126.pose.json",
+    "prompt": "side movement",
+    "negativePrompt": "",
+    "model": "a9c27ca4-3ec9-43e8-96cd-ee891aba64c5",
+    "modelName": "Text to Motion",
+    "customSeed": 1875470760,
+    "w3CTraceId": "8b900dd0ec0f80e365d2ab5568f3a068",
+    "isTrimmed": false
+}
